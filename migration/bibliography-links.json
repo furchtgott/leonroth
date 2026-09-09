@@ -1,0 +1,933 @@
+{
+  "date": "2026-09-09",
+  "pdf": "_files/ugd/01b672_c735764c4afb4dcd8abab68d943f1292.pdf",
+  "source_url": "https://www.leonroth.org/_files/ugd/01b672_c735764c4afb4dcd8abab68d943f1292.pdf",
+  "source_sha256": "51b1d19dbf32d5435b2e1a6da16e15c5835971191a8bd5f6e2f73abb360cb43f",
+  "output_sha256": "9396b2ed4c697b7c780cac8315bd682ae1f5cc0ce82bbab43ef47f623c24bb30",
+  "pages": 6,
+  "link_annotations": 70,
+  "unique_destinations": 67,
+  "updated_annotations": 67,
+  "updated_wix_annotations": 66,
+  "updated_publisher_annotations": 1,
+  "validation": {
+    "page_content_streams_identical": true,
+    "extracted_text_identical": true,
+    "page_dimensions_identical": true,
+    "annotation_counts_and_rectangles_identical": true,
+    "rendered_pages_at_85_dpi": [
+      {
+        "page": 1,
+        "pixel_identical": true
+      },
+      {
+        "page": 2,
+        "pixel_identical": true
+      },
+      {
+        "page": 3,
+        "pixel_identical": true
+      },
+      {
+        "page": 4,
+        "pixel_identical": true
+      },
+      {
+        "page": 5,
+        "pixel_identical": true
+      },
+      {
+        "page": 6,
+        "pixel_identical": true
+      }
+    ],
+    "production_site_build_passed": true,
+    "site_link_check_passed": true,
+    "all_embedded_local_pdf_links_exist_in_build": true
+  },
+  "changes": [
+    {
+      "page": 1,
+      "old": "http://media.wix.com/ugd/01b672_36872131cf604b28a14617b41c991e28.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_36872131cf604b28a14617b41c991e28.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 1,
+      "old": "http://media.wix.com/ugd/01b672_77f8a556b3254916bc8df250c0178e73.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_77f8a556b3254916bc8df250c0178e73.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 1,
+      "old": "http://media.wix.com/ugd/01b672_3515a6f1afca4833a2c099d126ee8733.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_3515a6f1afca4833a2c099d126ee8733.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 1,
+      "old": "http://media.wix.com/ugd/01b672_a2fe1ad3bb8047c4b58babaae152ce1e.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_a2fe1ad3bb8047c4b58babaae152ce1e.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 1,
+      "old": "http://media.wix.com/ugd/01b672_a2fe1ad3bb8047c4b58babaae152ce1e.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_a2fe1ad3bb8047c4b58babaae152ce1e.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 1,
+      "old": "http://media.wix.com/ugd/01b672_84789820815e43939d68faa721d80714.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_84789820815e43939d68faa721d80714.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 1,
+      "old": "http://media.wix.com/ugd/01b672_36f89a65436444e18f2650a4ea19fb06.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_36f89a65436444e18f2650a4ea19fb06.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://www.littman.co.uk/cat/roth.html",
+      "new": "https://academic.oup.com/liverpool-scholarship-online/book/40108",
+      "reason": "Use the current publisher book page, as on the website bibliography"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_9895b7989652487f8ac2fbb3e3ef25e3.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_9895b7989652487f8ac2fbb3e3ef25e3.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_4e775a5b0fce48bb8936dc014ccea31b.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_4e775a5b0fce48bb8936dc014ccea31b.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_23f8763a70684301808af94ac4c8b507.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_23f8763a70684301808af94ac4c8b507.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_45c5276f344544e8b5b4020b2a3dc7c1.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_45c5276f344544e8b5b4020b2a3dc7c1.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_db445c73bf31455ebbf375802975e72f.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_db445c73bf31455ebbf375802975e72f.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_9fbfdd9d5dbf4688b6dcb6a351e5b7d6.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_9fbfdd9d5dbf4688b6dcb6a351e5b7d6.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_e13163d3dffb4a108f6b88199f32cff7.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_e13163d3dffb4a108f6b88199f32cff7.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_22652ac9aeda4b229afde3ce42ff1ef4.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_22652ac9aeda4b229afde3ce42ff1ef4.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_c6d5f28850af4bc58a648960ccb9d6d4.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_c6d5f28850af4bc58a648960ccb9d6d4.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_74dedb59d3564d6ea6b474a3b73dd0d5.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_74dedb59d3564d6ea6b474a3b73dd0d5.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_e371d4814047467c9edce40eda93cd6c.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_e371d4814047467c9edce40eda93cd6c.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_c6c2c2f7d0a643d1a51d2a62116ddc7c.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_c6c2c2f7d0a643d1a51d2a62116ddc7c.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_c4afdc5840da4ec484d32fa2a7323d17.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_c4afdc5840da4ec484d32fa2a7323d17.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_e9328b5ca35c47b3a0cd3a319fc6a753.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_e9328b5ca35c47b3a0cd3a319fc6a753.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_8be27b04c9c042ab8225da327da91956.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_8be27b04c9c042ab8225da327da91956.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_49a358433b5043d0b7961e1631ddc422.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_49a358433b5043d0b7961e1631ddc422.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_3a112e085e2b47cd94f97dd203c2477a.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_3a112e085e2b47cd94f97dd203c2477a.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_334fae466f9040c3a08b840eff4e9298.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_334fae466f9040c3a08b840eff4e9298.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 2,
+      "old": "http://media.wix.com/ugd/01b672_fee98a86a28b4b74a53a2c6f9ba373cd.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_fee98a86a28b4b74a53a2c6f9ba373cd.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_92a9c2b1dae84888971cdc2667f8bbef.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_92a9c2b1dae84888971cdc2667f8bbef.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_3e08b0ec71cf4bc9b12c290747874381.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_3e08b0ec71cf4bc9b12c290747874381.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_790e6760fd9244829442500199ba3e29.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_790e6760fd9244829442500199ba3e29.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_a802b29212dd41b98f341e12e21134e1.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_a802b29212dd41b98f341e12e21134e1.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_5015a351fdf24336a71f137ec1438693.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_5015a351fdf24336a71f137ec1438693.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_83d48934a0414621a0495d36a4bb8142.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_83d48934a0414621a0495d36a4bb8142.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_3932d9ef01a246fcadd3fab0dd5c997b.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_3932d9ef01a246fcadd3fab0dd5c997b.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_9399d2e8387348cbbb3e4dddabb31831.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_9399d2e8387348cbbb3e4dddabb31831.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_366e70deb2034223b8c7facc9b5e93de.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_366e70deb2034223b8c7facc9b5e93de.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 3,
+      "old": "http://media.wix.com/ugd/01b672_285979f1981c4584ab61eda2d19718ba.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_285979f1981c4584ab61eda2d19718ba.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_af1d5fead68a43d8aad55be0406434e0.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_af1d5fead68a43d8aad55be0406434e0.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_8581b310ce6f47a1bb639095c7ccb498.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_8581b310ce6f47a1bb639095c7ccb498.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_23e68f268f3a43118a59d3d48f8ac88f.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_23e68f268f3a43118a59d3d48f8ac88f.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_aee0f77ff2964eb9aeda6c66cd75e1ec.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_aee0f77ff2964eb9aeda6c66cd75e1ec.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_fd773a0030be402aa88ee321d0ad37f6.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_fd773a0030be402aa88ee321d0ad37f6.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_77096e1a335546efbcc11d80306d2dea.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_77096e1a335546efbcc11d80306d2dea.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_65ad88669cb64f4ca797b5a1615bc5a0.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_65ad88669cb64f4ca797b5a1615bc5a0.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_ec29546ec34d467b900e35588bed415a.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_ec29546ec34d467b900e35588bed415a.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_f69531a21b894cd39c18da0cf72236a4.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_f69531a21b894cd39c18da0cf72236a4.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_2054fa1215be44f2b3eb0d9bf3e0ee89.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_2054fa1215be44f2b3eb0d9bf3e0ee89.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_26257d9c77694b8aad06a5e849b25dfd.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_26257d9c77694b8aad06a5e849b25dfd.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 4,
+      "old": "http://media.wix.com/ugd/01b672_a400ec4aabe4456e86f55f2b6cddd3d6.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_a400ec4aabe4456e86f55f2b6cddd3d6.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 5,
+      "old": "http://media.wix.com/ugd/01b672_916ff43bd0794e64a16be0228ca44b88.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_916ff43bd0794e64a16be0228ca44b88.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 5,
+      "old": "http://media.wix.com/ugd/01b672_3671818f5edb42e79afb4e01d09f53d0.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_3671818f5edb42e79afb4e01d09f53d0.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 5,
+      "old": "http://media.wix.com/ugd/01b672_64919309455648d18dda0b91e12ca447.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_64919309455648d18dda0b91e12ca447.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 5,
+      "old": "http://media.wix.com/ugd/01b672_8bd014211afe48a296b16f2a8ea90fb2.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_8bd014211afe48a296b16f2a8ea90fb2.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 5,
+      "old": "http://media.wix.com/ugd/01b672_259a93806c2c4ef493b8122073813009.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_259a93806c2c4ef493b8122073813009.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 5,
+      "old": "http://media.wix.com/ugd/01b672_a68e90caf2154c81bebe77c99844ec8b.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_a68e90caf2154c81bebe77c99844ec8b.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 5,
+      "old": "http://media.wix.com/ugd/01b672_337ac7789c3644799b58f0b363d9a1f0.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_337ac7789c3644799b58f0b363d9a1f0.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_7a361355f04a4f3ea14be8d3740952a9.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_7a361355f04a4f3ea14be8d3740952a9.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_7006810f3fd74e6ebeb6088546d1506b.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_7006810f3fd74e6ebeb6088546d1506b.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_031cb2d837bf47ce933e9fcdc80c4f96.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_031cb2d837bf47ce933e9fcdc80c4f96.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_1d4fed414cfb456ebcff851ef373ccd5.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_1d4fed414cfb456ebcff851ef373ccd5.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_81bada2e0a004181b3847850b50e0fe3.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_81bada2e0a004181b3847850b50e0fe3.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_81bada2e0a004181b3847850b50e0fe3.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_81bada2e0a004181b3847850b50e0fe3.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_4c0df81ce4cc41d7ab921559057dd294.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_4c0df81ce4cc41d7ab921559057dd294.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_ed5c62c91deb45f3a8fb87a8997152ee.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_ed5c62c91deb45f3a8fb87a8997152ee.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_ed5c62c91deb45f3a8fb87a8997152ee.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_ed5c62c91deb45f3a8fb87a8997152ee.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    },
+    {
+      "page": 6,
+      "old": "http://media.wix.com/ugd/01b672_8cf44341ea56446ebefc275992ae21b2.pdf",
+      "new": "https://www.leonroth.org/_files/ugd/01b672_8cf44341ea56446ebefc275992ae21b2.pdf",
+      "reason": "Use the migrated PDF on the Foundation website"
+    }
+  ],
+  "http_checks": [
+    {
+      "url": "http://www.worlddialogue.org/print.php?id=173",
+      "status": "410",
+      "final_url": "http://www.worlddialogue.org/print.php?id=173",
+      "content_type": "text/html; charset=utf-8",
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/liverpool-scholarship-online/book/40108",
+      "status": "403",
+      "final_url": "https://academic.oup.com/liverpool-scholarship-online/book/40108",
+      "content_type": "text/html; charset=UTF-8",
+      "error": ""
+    },
+    {
+      "url": "https://archive.org/details/nybc210078",
+      "status": "200",
+      "final_url": "https://archive.org/details/nybc210078",
+      "content_type": "text/html; charset=UTF-8",
+      "error": ""
+    },
+    {
+      "url": "https://archive.org/details/spinozadescartes00roth",
+      "status": "200",
+      "final_url": "https://archive.org/details/spinozadescartes00roth",
+      "content_type": "text/html; charset=UTF-8",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_031cb2d837bf47ce933e9fcdc80c4f96.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_031cb2d837bf47ce933e9fcdc80c4f96.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_1d4fed414cfb456ebcff851ef373ccd5.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_1d4fed414cfb456ebcff851ef373ccd5.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_2054fa1215be44f2b3eb0d9bf3e0ee89.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_2054fa1215be44f2b3eb0d9bf3e0ee89.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_22652ac9aeda4b229afde3ce42ff1ef4.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_22652ac9aeda4b229afde3ce42ff1ef4.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_23e68f268f3a43118a59d3d48f8ac88f.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_23e68f268f3a43118a59d3d48f8ac88f.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_23f8763a70684301808af94ac4c8b507.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_23f8763a70684301808af94ac4c8b507.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_259a93806c2c4ef493b8122073813009.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_259a93806c2c4ef493b8122073813009.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_26257d9c77694b8aad06a5e849b25dfd.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_26257d9c77694b8aad06a5e849b25dfd.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_285979f1981c4584ab61eda2d19718ba.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_285979f1981c4584ab61eda2d19718ba.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_334fae466f9040c3a08b840eff4e9298.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_334fae466f9040c3a08b840eff4e9298.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_337ac7789c3644799b58f0b363d9a1f0.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_337ac7789c3644799b58f0b363d9a1f0.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_3515a6f1afca4833a2c099d126ee8733.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_3515a6f1afca4833a2c099d126ee8733.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_366e70deb2034223b8c7facc9b5e93de.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_366e70deb2034223b8c7facc9b5e93de.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_3671818f5edb42e79afb4e01d09f53d0.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_3671818f5edb42e79afb4e01d09f53d0.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_36872131cf604b28a14617b41c991e28.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_36872131cf604b28a14617b41c991e28.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_36f89a65436444e18f2650a4ea19fb06.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_36f89a65436444e18f2650a4ea19fb06.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_3932d9ef01a246fcadd3fab0dd5c997b.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_3932d9ef01a246fcadd3fab0dd5c997b.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_3a112e085e2b47cd94f97dd203c2477a.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_3a112e085e2b47cd94f97dd203c2477a.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_3e08b0ec71cf4bc9b12c290747874381.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_3e08b0ec71cf4bc9b12c290747874381.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_45c5276f344544e8b5b4020b2a3dc7c1.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_45c5276f344544e8b5b4020b2a3dc7c1.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_49a358433b5043d0b7961e1631ddc422.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_49a358433b5043d0b7961e1631ddc422.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_4c0df81ce4cc41d7ab921559057dd294.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_4c0df81ce4cc41d7ab921559057dd294.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_4e775a5b0fce48bb8936dc014ccea31b.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_4e775a5b0fce48bb8936dc014ccea31b.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_5015a351fdf24336a71f137ec1438693.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_5015a351fdf24336a71f137ec1438693.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_64919309455648d18dda0b91e12ca447.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_64919309455648d18dda0b91e12ca447.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_65ad88669cb64f4ca797b5a1615bc5a0.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_65ad88669cb64f4ca797b5a1615bc5a0.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_7006810f3fd74e6ebeb6088546d1506b.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_7006810f3fd74e6ebeb6088546d1506b.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_74dedb59d3564d6ea6b474a3b73dd0d5.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_74dedb59d3564d6ea6b474a3b73dd0d5.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_77096e1a335546efbcc11d80306d2dea.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_77096e1a335546efbcc11d80306d2dea.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_77f8a556b3254916bc8df250c0178e73.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_77f8a556b3254916bc8df250c0178e73.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_790e6760fd9244829442500199ba3e29.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_790e6760fd9244829442500199ba3e29.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_7a361355f04a4f3ea14be8d3740952a9.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_7a361355f04a4f3ea14be8d3740952a9.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_81bada2e0a004181b3847850b50e0fe3.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_81bada2e0a004181b3847850b50e0fe3.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_83d48934a0414621a0495d36a4bb8142.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_83d48934a0414621a0495d36a4bb8142.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_84789820815e43939d68faa721d80714.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_84789820815e43939d68faa721d80714.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_8581b310ce6f47a1bb639095c7ccb498.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_8581b310ce6f47a1bb639095c7ccb498.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_8bd014211afe48a296b16f2a8ea90fb2.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_8bd014211afe48a296b16f2a8ea90fb2.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_8be27b04c9c042ab8225da327da91956.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_8be27b04c9c042ab8225da327da91956.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_8cf44341ea56446ebefc275992ae21b2.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_8cf44341ea56446ebefc275992ae21b2.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_916ff43bd0794e64a16be0228ca44b88.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_916ff43bd0794e64a16be0228ca44b88.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_92a9c2b1dae84888971cdc2667f8bbef.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_92a9c2b1dae84888971cdc2667f8bbef.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_9399d2e8387348cbbb3e4dddabb31831.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_9399d2e8387348cbbb3e4dddabb31831.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_9895b7989652487f8ac2fbb3e3ef25e3.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_9895b7989652487f8ac2fbb3e3ef25e3.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_9fbfdd9d5dbf4688b6dcb6a351e5b7d6.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_9fbfdd9d5dbf4688b6dcb6a351e5b7d6.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_a2fe1ad3bb8047c4b58babaae152ce1e.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_a2fe1ad3bb8047c4b58babaae152ce1e.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_a400ec4aabe4456e86f55f2b6cddd3d6.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_a400ec4aabe4456e86f55f2b6cddd3d6.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_a68e90caf2154c81bebe77c99844ec8b.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_a68e90caf2154c81bebe77c99844ec8b.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_a802b29212dd41b98f341e12e21134e1.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_a802b29212dd41b98f341e12e21134e1.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_aee0f77ff2964eb9aeda6c66cd75e1ec.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_aee0f77ff2964eb9aeda6c66cd75e1ec.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_af1d5fead68a43d8aad55be0406434e0.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_af1d5fead68a43d8aad55be0406434e0.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_c4afdc5840da4ec484d32fa2a7323d17.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_c4afdc5840da4ec484d32fa2a7323d17.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_c6c2c2f7d0a643d1a51d2a62116ddc7c.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_c6c2c2f7d0a643d1a51d2a62116ddc7c.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_c6d5f28850af4bc58a648960ccb9d6d4.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_c6d5f28850af4bc58a648960ccb9d6d4.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_db445c73bf31455ebbf375802975e72f.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_db445c73bf31455ebbf375802975e72f.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_e13163d3dffb4a108f6b88199f32cff7.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_e13163d3dffb4a108f6b88199f32cff7.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_e371d4814047467c9edce40eda93cd6c.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_e371d4814047467c9edce40eda93cd6c.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_e9328b5ca35c47b3a0cd3a319fc6a753.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_e9328b5ca35c47b3a0cd3a319fc6a753.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_ec29546ec34d467b900e35588bed415a.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_ec29546ec34d467b900e35588bed415a.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_ed5c62c91deb45f3a8fb87a8997152ee.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_ed5c62c91deb45f3a8fb87a8997152ee.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_f69531a21b894cd39c18da0cf72236a4.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_f69531a21b894cd39c18da0cf72236a4.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_fd773a0030be402aa88ee321d0ad37f6.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_fd773a0030be402aa88ee321d0ad37f6.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    },
+    {
+      "url": "https://www.leonroth.org/_files/ugd/01b672_fee98a86a28b4b74a53a2c6f9ba373cd.pdf",
+      "status": "200",
+      "final_url": "https://www.leonroth.org/_files/ugd/01b672_fee98a86a28b4b74a53a2c6f9ba373cd.pdf",
+      "content_type": "application/pdf",
+      "error": ""
+    }
+  ],
+  "external_notes": [
+    {
+      "url": "https://academic.oup.com/liverpool-scholarship-online/book/40108",
+      "status": "Verified by web search: correct title and author. Automated HTTP HEAD requests receive 403."
+    },
+    {
+      "url": "http://www.worlddialogue.org/print.php?id=173",
+      "status": "Unresolved: HTTP 410 Gone. Original link retained. Web searches did not locate a replacement; Internet Archive availability requests were rate-limited and its CDX request timed out."
+    }
+  ]
+}
