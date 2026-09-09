@@ -2,6 +2,8 @@
 
 A Jekyll website using [Minimal Mistakes 4.28.1](https://mmistakes.github.io/minimal-mistakes/), prepared for GitHub Pages at `furchtgott/leonroth`. Content and linked documents were migrated from the Foundation’s Wix site. The original downloads in `Site Files/` remain untouched and are excluded from Git and publishing.
 
+The live site is **https://www.leonroth.org/**. Namecheap manages the domain registration and DNS; GitHub Pages hosts the website and provides its HTTPS certificate. The bare domain redirects to `www`, and HTTPS is enforced.
+
 ## Preview locally
 
 Use Ruby 4.0, then run:
@@ -50,4 +52,4 @@ Run the repository-creation command only if the repository has not already been 
 
 The included workflow builds and checks the site on every push to `main`, then deploys it. Pull requests build and check without deploying. It reads the URL and base path from GitHub Pages, so a later custom-domain change does not require editing every link.
 
-Review the GitHub test site before changing the domain. See [MIGRATION.md](MIGRATION.md) for the archive inventory, content corrections, and Namecheap/Wix DNS cutover.
+The custom-domain cutover was completed on September 9, 2026. See [MIGRATION.md](MIGRATION.md) for the archive inventory and content corrections, and [the DNS cutover record](migration/dns-cutover.md) for the saved DNS settings and verification.

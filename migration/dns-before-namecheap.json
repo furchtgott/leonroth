@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-09-09T15:50:26.904079+00:00",
+  "records": [
+    {
+      "hostname": "leonroth.org",
+      "type": "NS",
+      "answer": "leonroth.org.\t\t99\tIN\tNS\tns0.wixdns.net.\nleonroth.org.\t\t99\tIN\tNS\tns1.wixdns.net."
+    },
+    {
+      "hostname": "leonroth.org",
+      "type": "A",
+      "answer": "leonroth.org.\t\t2623\tIN\tA\t185.230.63.171\nleonroth.org.\t\t2623\tIN\tA\t185.230.63.186\nleonroth.org.\t\t2623\tIN\tA\t185.230.63.107"
+    },
+    {
+      "hostname": "leonroth.org",
+      "type": "AAAA",
+      "answer": ""
+    },
+    {
+      "hostname": "leonroth.org",
+      "type": "MX",
+      "answer": "leonroth.org.\t\t2622\tIN\tMX\t10 eforward3.registrar-servers.com.\nleonroth.org.\t\t2622\tIN\tMX\t10 eforward2.registrar-servers.com.\nleonroth.org.\t\t2622\tIN\tMX\t15 eforward4.registrar-servers.com.\nleonroth.org.\t\t2622\tIN\tMX\t20 eforward5.registrar-servers.com.\nleonroth.org.\t\t2622\tIN\tMX\t10 eforward1.registrar-servers.com."
+    },
+    {
+      "hostname": "leonroth.org",
+      "type": "TXT",
+      "answer": ""
+    },
+    {
+      "hostname": "leonroth.org",
+      "type": "CAA",
+      "answer": ""
+    },
+    {
+      "hostname": "leonroth.org",
+      "type": "DS",
+      "answer": ""
+    },
+    {
+      "hostname": "www.leonroth.org",
+      "type": "CNAME",
+      "answer": "www.leonroth.org.\t98\tIN\tCNAME\tcdn1.wixdns.net."
+    },
+    {
+      "hostname": "m.leonroth.org",
+      "type": "CNAME",
+      "answer": "m.leonroth.org.\t\t3600\tIN\tCNAME\twww16.wixdns.net."
+    },
+    {
+      "hostname": "_dmarc.leonroth.org",
+      "type": "TXT",
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-09-09T16:09:52.317128+00:00",
+  "resolver": "Namecheap authoritative servers over TCP",
+  "records": [
+    {
+      "server": "dns1.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "NS",
+      "answer": [
+        "dns1.registrar-servers.com.",
+        "dns2.registrar-servers.com."
+      ]
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "A",
+      "answer": [
+        "185.199.111.153",
+        "185.199.109.153",
+        "185.199.108.153",
+        "185.199.110.153"
+      ]
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "host": "www.leonroth.org",
+      "type": "CNAME",
+      "answer": [
+        "furchtgott.github.io."
+      ]
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "MX",
+      "answer": [
+        "10 eforward1.registrar-servers.com.",
+        "10 eforward2.registrar-servers.com.",
+        "10 eforward3.registrar-servers.com.",
+        "15 eforward4.registrar-servers.com.",
+        "20 eforward5.registrar-servers.com."
+      ]
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "TXT",
+      "answer": [
+        "\"v=spf1 include:spf.efwd.registrar-servers.com ~all\""
+      ]
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "host": "m.leonroth.org",
+      "type": "CNAME",
+      "answer": []
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "NS",
+      "answer": [
+        "dns1.registrar-servers.com.",
+        "dns2.registrar-servers.com."
+      ]
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "A",
+      "answer": [
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.108.153",
+        "185.199.111.153"
+      ]
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "host": "www.leonroth.org",
+      "type": "CNAME",
+      "answer": [
+        "furchtgott.github.io."
+      ]
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "MX",
+      "answer": [
+        "10 eforward1.registrar-servers.com.",
+        "10 eforward2.registrar-servers.com.",
+        "10 eforward3.registrar-servers.com.",
+        "15 eforward4.registrar-servers.com.",
+        "20 eforward5.registrar-servers.com."
+      ]
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "host": "leonroth.org",
+      "type": "TXT",
+      "answer": [
+        "\"v=spf1 include:spf.efwd.registrar-servers.com ~all\""
+      ]
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "host": "m.leonroth.org",
+      "type": "CNAME",
+      "answer": []
+    }
+  ]
+}

@@ -24,21 +24,24 @@ The full original download contained 232 files, totaling 1,088,075,977 bytes. Th
 
 1. On the old *Seven Chapters on England* page, Chapter III pointed to Chapter II’s PDF. The link now uses the supplied Hebrew Chapter III, whose heading is “Local Authorities and Public Education.” The old Chapter II URL still works.
 2. Removed an invisible, empty link on *The Guide for the Perplexed*. It led to Chapter IV of *Judaism: A Portrait*, which remains properly linked from that book.
-3. Changed the mission page’s 2019 future-tense announcement to say that a conference **was planned**, without claiming it took place. The digitized library is now described as available in Resources.
+3. Removed the mission page’s obsolete announcement of a planned 2019 conference at the owner's request. The digitized library is now described as available in Resources.
 4. Replaced the defunct Littman publisher URL with the verified [Oxford Academic book page](https://academic.oup.com/liverpool-scholarship-online/book/40108).
 5. Promoted book part headings and conference session headings to semantic headings, repositioned photo captions beside their images, and used the English title plus a transliterated subtitle for *Seven Chapters on England*. Bibliography text, ordering, and references are otherwise retained.
+6. Nested Oona Ajzenstat's October 1999 review beneath its book entry, *Is There a Jewish Philosophy? Rethinking Fundamentals.*
 
 The legacy external link to Neve Gordon’s “A Jewish Voice for Coexistence” (`worlddialogue.org/print.php?id=173`) returns HTTP 410 Gone. Its bibliographic citation is preserved; the original article was not among the linked local downloads. This is an inherited external-source issue, independent of the migrated site’s local links. The advisory board names and affiliations are copied from the original site and have not been independently updated.
 
 ## URLs
 
-The project preview is configured for `https://furchtgott.github.io/leonroth/`. Original page paths use directory indexes (for example `/leon-roth/`), with the usual web-server redirect from the slashless `/leon-roth`. PDF paths are unchanged. Old `static.wixstatic.com` URLs remain controlled by Wix; our domain cannot redirect addresses on Wix’s domain.
+The live site is `https://www.leonroth.org/`; the original project preview was `https://furchtgott.github.io/leonroth/`. Original page paths use directory indexes (for example `/leon-roth/`), with the usual web-server redirect from the slashless `/leon-roth`. PDF paths are unchanged. Old `static.wixstatic.com` URLs remain controlled by Wix; our domain cannot redirect addresses on Wix’s domain.
 
 The GitHub Actions workflow uses `actions/configure-pages` to select the correct hostname and base path at build time. A custom-domain deployment therefore builds for the domain root automatically. With an Actions publishing workflow, a `CNAME` file is not needed; the custom domain is set in GitHub’s Pages settings.
 
-## Move the domain after reviewing the GitHub preview
+## Domain cutover
 
-The live domain currently uses **`ns0.wixdns.net` and `ns1.wixdns.net`**, so Wix is the authoritative DNS provider even though Namecheap is the registrar. Namecheap Advanced DNS changes will not take effect until the domain’s nameservers are changed.
+Completed September 9, 2026: Namecheap BasicDNS is authoritative, GitHub's certificate covers both domain names, HTTPS enforcement is enabled, and live HTTPS checks passed for the homepage, an interior page, a migrated PDF, and the apex redirect. See [the cutover record](migration/dns-cutover.md) for the original and final DNS snapshots.
+
+Before the cutover, the domain used **`ns0.wixdns.net` and `ns1.wixdns.net`**, making Wix the authoritative DNS provider even though Namecheap was the registrar. The transition procedure is retained below for reference.
 
 1. Confirm the GitHub preview, all pages, PDFs, and HTTPS work.
 2. Save the current complete Wix DNS zone, including MX, TXT, CAA, verification records, and any unrelated subdomains. Prepare those records at Namecheap before switching nameservers. The public website crawl does not reveal every DNS record.
