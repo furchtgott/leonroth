@@ -11,7 +11,7 @@ collection_label: The Foundation
 
 The Leon Roth Foundation seeks to encourage a new generation of students to engage with Roth’s seminal works, to use his ideas to invigorate current academic discourse, and to bring Roth into dialogue with other philosophical voices.
 
-Our [inaugural conference on Leon Roth]({{ '/2017-conference/' | relative_url }}) was held in May 2017 at the University of Toronto. A further conference was planned for Jerusalem in the spring of 2019. Our [Resources]({{ '/resources/' | relative_url }}) include a digitized library of Leon Roth's publications.
+Our [inaugural conference on Leon Roth]({{ '/2017-conference/' | relative_url }}) was held in May 2017 at the University of Toronto. Our [Resources]({{ '/resources/' | relative_url }}) include a digitized library of Leon Roth's publications.
 
 Contact us at: [leonrothfoundation@gmail.com](mailto:leonrothfoundation@gmail.com)
 

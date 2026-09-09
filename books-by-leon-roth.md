@@ -32,4 +32,4 @@ page_class: bibliography-page
   - [Review]({{ '/_files/ugd/01b672_d98e12058289479696d24739ca06f319.pdf' | relative_url }}) by D.D. Raphael.
 - [*Is There a Jewish Philosophy?* *Rethinking Fundamentals.*](https://academic.oup.com/liverpool-scholarship-online/book/40108) London: The Littman Library of Jewish Civilization, 1999. [A collection of essays by Leon Roth.]
 
-[Review]({{ '/_files/ugd/01b672_286977536d9f4153be5e6b33ecbafc24.pdf' | relative_url }}) by Oona Ajzenstat, H-Net Reviews, October 1999.
+  - [Review]({{ '/_files/ugd/01b672_286977536d9f4153be5e6b33ecbafc24.pdf' | relative_url }}) by Oona Ajzenstat, H-Net Reviews, October 1999.
