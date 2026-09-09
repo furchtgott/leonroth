@@ -6,7 +6,7 @@ parent_url: /resources/
 page_class: bibliography-page
 ---
 
-- *[Spinoza, Descartes and Maimonides](https://archive.org/details/spinozadescartes00roth)**.* Oxford: Clarendon Press, 1924; reissued New York: Russell & Russell, 1963.
+- [*Spinoza, Descartes and Maimonides*](https://archive.org/details/spinozadescartes00roth). Oxford: Clarendon Press, 1924; reissued New York: Russell & Russell, 1963.
 
   - [Review]({{ '/_files/ugd/01b672_36872131cf604b28a14617b41c991e28.pdf' | relative_url }}) by Harry A. Wolfson.
 - *Correspondence of Descartes and Constantyn Huygens, 1635-1647*. Oxford: Clarendon Press, 1926.

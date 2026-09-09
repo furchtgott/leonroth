@@ -7,7 +7,8 @@ import argparse, json, sys
 
 class Page(HTMLParser):
     def __init__(self):
-        super().__init__();self.links=[];self.ids=set();self.h1=0;self.images=[]
+        super().__init__();self.links=[];self.ids=set();self.h1=0;self.images=[];self.text=[]
+    def handle_data(self,data):self.text.append(data)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
         if 'id' in a:self.ids.add(a['id'])
@@ -24,6 +25,7 @@ def main():
     errors=[];pages={};link_count=0
     for file in root.rglob('*.html'):
         page=Page();page.feed(file.read_text());pages[file]=page
+        if '**' in ''.join(page.text):errors.append(f'{file.relative_to(root)}: unrendered Markdown emphasis')
         if page.h1!=1:errors.append(f'{file.relative_to(root)}: expected one h1, got {page.h1}')
         for img in page.images:
             if not img.get('alt'):errors.append(f'{file.relative_to(root)}: missing image alt')
