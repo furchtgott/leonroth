@@ -1,0 +1,6 @@
+beautifulsoup4==4.15.0
+markdownify==1.2.3
+PyYAML==6.0.3
+Pillow==12.3.0
+pikepdf==10.13.0.post1
+numpy==2.5.3

@@ -1,0 +1,12 @@
+.DS_Store
+Site Files/
+_site/
+_site_test/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+migration/source/
+migration/screenshots/
+node_modules/

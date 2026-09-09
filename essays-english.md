@@ -1,0 +1,84 @@
+---
+title: Essays in English by Leon Roth
+permalink: /essays-english/
+collection_label: Resource library
+parent_url: /resources/
+page_class: bibliography-page
+---
+
+- [“David Nieto and the Orthodoxy of Spinozism.”]({{ '/_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf' | relative_url }}) *Chronicon Spinozanum* 1 (1921): 278-282.
+- [“The Abscondita Sapientiae of Joseph del Medigo.”]({{ '/_files/ugd/01b672_9895b7989652487f8ac2fbb3e3ef25e3.pdf' | relative_url }}) *Chronicon Spinozanum* 2 (1922): 54-66.
+- “Spinoza and Cartesianism.” *Mind* 32 (1923): 12-37 ([part I]({{ '/_files/ugd/01b672_4e775a5b0fce48bb8936dc014ccea31b.pdf' | relative_url }})); 160-178 ([part II]({{ '/_files/ugd/01b672_23f8763a70684301808af94ac4c8b507.pdf' | relative_url }})).
+- [“Miscellanies.”]({{ '/_files/ugd/01b672_45c5276f344544e8b5b4020b2a3dc7c1.pdf' | relative_url }}) *Chronicon Spinozanum* 3 (1923): 347-348.
+- Review of *The Thoughts of Marcus Aurelius*, by A. Kaminka. *Jewish Guardian*, March 16, 1923.
+- [“The Goodness of God.”]({{ '/_files/ugd/01b672_db445c73bf31455ebbf375802975e72f.pdf' | relative_url }}) *Journal of Philosophical Studies* 2, no. 8 (1926): 503-515.
+- [“Jewish Thought in the Modern World.”]({{ '/_files/ugd/01b672_9fbfdd9d5dbf4688b6dcb6a351e5b7d6.pdf' | relative_url }}) In *The Legacy of Israel*, edited by Edwyn R. Bevan and Charles Singer, 433-472. Oxford: Clarendon Press, 1927.
+- [“Spinoza in Recent English Thought.”]({{ '/_files/ugd/01b672_e13163d3dffb4a108f6b88199f32cff7.pdf' | relative_url }}) *Mind* 36, no. 142 (1927): 205-210.
+- [Review]({{ '/_files/ugd/01b672_22652ac9aeda4b229afde3ce42ff1ef4.pdf' | relative_url }}) of *The Philosophy of Immanuel Kant*, by H. Bergmann. *Mind* 36, no. 143 (1927): 384.
+- [Review]({{ '/_files/ugd/01b672_c6d5f28850af4bc58a648960ccb9d6d4.pdf' | relative_url }}) of *S. Thomas Aquinatis Opuseula Omnia cura et studio*, by R. P. Petri Mandonnet. *Mind* 37, no. 145 (1928): 120.
+- [“The Jerusalem University: Some Personal Notes.”]({{ '/_files/ugd/01b672_74dedb59d3564d6ea6b474a3b73dd0d5.pdf' | relative_url }}) *Universities Review* 2, no. 2 (1930): 111-115.
+- [“Jerusalem Letter.”]({{ '/_files/ugd/01b672_e371d4814047467c9edce40eda93cd6c.pdf' | relative_url }}) *Universities Review* 4 (1932): 126-131.
+- [“Note on the Relationship between Locke and Descartes.”]({{ '/_files/ugd/01b672_c6c2c2f7d0a643d1a51d2a62116ddc7c.pdf' | relative_url }}) *Mind* 44 (1935): 414-416.
+- [“The Discourse on Method, 1637-1937.”]({{ '/_files/ugd/01b672_c4afdc5840da4ec484d32fa2a7323d17.pdf' | relative_url }}) *Mind* 46, no. 181 (1937): 32-43.
+- [“The Descartes-Huygens Correspondence.”]({{ '/_files/ugd/01b672_123d93d61a884d989b24fe3efb71c161.pdf' | relative_url }}) In *Travaux du IXe Congrès International de Philosophie (‘Congrès Descartes’)*, (1937): 101-108.
+- [“Ambassadors of English.”]({{ '/_files/ugd/01b672_65d25ef810274c56bf44c8df0eb4c1ee.pdf' | relative_url }}) *Times Literary Supplement*, July 11, 1942.
+- “The First 25 Years of the Hebrew University.” *Bulletin of the English Friends of the Hebrew University*, Oct. 1943.
+- [“The Hebrew University and Its Place in the Modern World.”]({{ '/_files/ugd/01b672_729398f0e28d4f1ea2ed3c46134bde0e.pdf' | relative_url }}) Lucien Wolf Memorial Lecture 1945, The Jewish Historical Society of England. Reported also in the *Jewish Chronicle*, Apr. 6, 1945.
+- [“Philosophical Classics in Hebrew: Building a Language.”]({{ '/_files/ugd/01b672_e9328b5ca35c47b3a0cd3a319fc6a753.pdf' | relative_url }}) *Commentary* 2 (1946): 298-300.
+- [“A Plea for Universality in Education.”]({{ '/_files/ugd/01b672_d259e0ad83e148989dab42e118994a21.pdf' | relative_url }}) *Scopus* 2, no. 1 (1948).
+- [“Judah L. Magnes and the Hebrew University.”]({{ '/_files/ugd/01b672_346e2202480a4822900ccaf19409c088.pdf' | relative_url }}) *Jewish Education* 20 (1949).
+- [“I[srael] A[brahams] and the Hebrew University.”]({{ '/_files/ugd/01b672_eef97dc9e22147c39f6525b1a99d7ab4.pdf' | relative_url }}) *Zionist Independent* 1 (1949): 20f.
+- [“General Humanities.”]({{ '/_files/ugd/01b672_8be27b04c9c042ab8225da327da91956.pdf' | relative_url }}) In *The Hebrew University of Jerusalem 1925-1950*, edited by Manka Spiegel, 98-102. Jerusalem: Hebrew University, 1950.
+- [“Twenty Five Years [of the Hebrew University].”]({{ '/_files/ugd/01b672_011e3d53277d413588b8084bbb31b967.pdf' | relative_url }}) *Scopus* 4, no. 1 (1950).
+- [“Judaism.”]({{ '/_files/ugd/01b672_49a358433b5043d0b7961e1631ddc422.pdf' | relative_url }}) In *The Year Book of Education*, edited by J.A. Lauwerys and N. Hans, 192-212. London: Evans Bros., 1951.
+- [“Ambassador.”]({{ '/_files/ugd/01b672_3a112e085e2b47cd94f97dd203c2477a.pdf' | relative_url }}) Review of *My Mission in Israel*, by James G. McDonald. *Desiderata* 4, no. 49 (Dec. 7, 1951): 1-3. [Signed A.N.O.R.]
+- [“Boloney.”]({{ '/_files/ugd/01b672_334fae466f9040c3a08b840eff4e9298.pdf' | relative_url }}) Review of *The Circus of Dr. Lao*, by Charles G. Finney. *Desiderata* 4, no. 50 (Dec. 14, 1951): 1-4. [Signed A.B.F.]
+- [“Judah Leon Magnes: An Appreciation.”]({{ '/_files/ugd/01b672_b3fcfc4550b2419498510d79699192d6.pdf' | relative_url }}) *Ner* 3, no. 5-6 (Dec. 1951 - Jan. 1952): 20.
+- [“Philosophy at the University and the Jewish Mind.”]({{ '/_files/ugd/01b672_fee98a86a28b4b74a53a2c6f9ba373cd.pdf' | relative_url }}) In *Hebrew University Garland*, edited by Norman Bentwich, 65-72. London: Constellation Books, 1952.
+- [Letter to the Editor]({{ '/_files/ugd/01b672_85ac4762ae304a538279401889e52b07.pdf' | relative_url }}) (on the morality of Jewish apologia for the Qibya raid). *Jewish Chronicle*, Dec. 4, 1953.
+- [“Some Observations on Recent Reported Undergraduate Conversions to Christianity.”]({{ '/_files/ugd/01b672_92a9c2b1dae84888971cdc2667f8bbef.pdf' | relative_url }}) Paper read to the Inter-University Jewish Federation [of England] Summer School, Aug. 1954.
+- [*Jewish Thought as a Factor in Civilization*.]({{ '/_files/ugd/01b672_153cb7f5ba8c407981506a9b138638f7.pdf' | relative_url }}) Paris: Unesco, 1954. [Yiddish translation](https://archive.org/details/nybc210078) by M. Shenderey. Buenos Aires, 1956.
+- [“St George for England.”]({{ '/_files/ugd/01b672_3e08b0ec71cf4bc9b12c290747874381.pdf' | relative_url }}) Review of *England, Your England and Other Essays*, by George Orwell. *Desiderata* 7, no. 12 (Jan. 15, 1954): 1-3.
+- Letters to the Editor (on Ahad Ha’am). *Jewish Chronicle*, [April 16, 1954]({{ '/_files/ugd/01b672_b64d45b992d7478baf6b5018ff4723ed.pdf' | relative_url }}), and [April 30, 1954]({{ '/_files/ugd/01b672_a52ef6b1089a47f2800032d970e5fb9a.pdf' | relative_url }}).
+- [“Cartesian Studies.”]({{ '/_files/ugd/01b672_790e6760fd9244829442500199ba3e29.pdf' | relative_url }}) Review of *New Studies in the Philosophy of Descartes*, by Norman Kemp Smith. *Cambridge Journal* 7 (1954): 466-475.
+- [*The Significance of Biblical Prophecy for our Time*.]({{ '/_files/ugd/01b672_3404d6a14ac54ba6bacf961e4122fd1c.pdf' | relative_url }}) Rabbi Mattuck Memorial Pamphlet 1. London: London Society of Jews and Christians, 1955.
+- “Prophets of All Time.” *Common Ground* 9, no. 3 (1955): 3-8.
+- [Review]({{ '/_files/ugd/01b672_a802b29212dd41b98f341e12e21134e1.pdf' | relative_url }}) of *Pain and Other Problems*, by J. C. Wordsworth. *Philosophical Quarterly* 5, no. 21 (1955): 382-383.
+- [Letter to the Editor]({{ '/_files/ugd/01b672_ab587ca0bb4f4d1db29116fcb8f8bb7a.pdf' | relative_url }}) (on J. L. Magnes). *Jewish Chronicle*, Feb. 4, 1955.
+- [*Great Jewish Books, Old and New*.]({{ '/_files/ugd/01b672_5015a351fdf24336a71f137ec1438693.pdf' | relative_url }}) London: Jewish Book Council, 1955. Reprinted in *Essays in Jewish Booklore*, edited by Philip Goodman, 25-38. New York: Ktav Publishing House, 1972.
+- [“A Contemporary Moralist: Albert Camus.”]({{ '/_files/ugd/01b672_83d48934a0414621a0495d36a4bb8142.pdf' | relative_url }}) (R. R. Marett Memorial Lecture 1954). *Philosophy* 30, no. 115 (1955): 291-303.
+- [*Some Reflections on the Interpretation of Scripture.*]({{ '/_files/ugd/01b672_6486b2f1728d43e3a3392307d26fcb51.pdf' | relative_url }}) Claude Montefiore Lecture 1955. London: Liberal Jewish Synagogue, 1956.
+- [“The ‘Cherem’ on Spinoza.”]({{ '/_files/ugd/01b672_86936c1bc32f4bafa82b54b9ba33c9ca.pdf' | relative_url }}) *Jewish Chronicle*, July 27, 1956.
+- [Review]({{ '/_files/ugd/01b672_3932d9ef01a246fcadd3fab0dd5c997b.pdf' | relative_url }}) of *Spinoza*, by Stuart Hampshire. *Mind* 65, no. 1 (1956): 410-411.
+- [Address given at the West London Synagogue]({{ '/_files/ugd/01b672_9399d2e8387348cbbb3e4dddabb31831.pdf' | relative_url }}) on the occasion of the inauguration of the Jewish Theological College, September 30, 1956. Reprinted in *The Synagogue Review* 31, no. 3 (1956): 65f.
+- “Rabbi and Audience.” *Jewish Chronicle*, [Dec. 14, 1956]({{ '/_files/ugd/01b672_b5dd13cab7a84268bb82c4111273caf1.pdf' | relative_url }}) and [Dec. 21, 1956]({{ '/_files/ugd/01b672_2484f809b5ef47a39d3ec6f64019c2ca.pdf' | relative_url }}).
+- [*Baruch Spinoza: His Religious Importance for the Jew of Today*.]({{ '/_files/ugd/01b672_583c8780eb6949bc93fc3991af6cdbd9.pdf' | relative_url }}) Amsterdam: International Conference of the World Union for Progressive Judaism, 1957.
+- “Spinoza and the Religious Jew of Today.” *Jewish Chronicle*, [Sep. 13, 1957]({{ '/_files/ugd/01b672_f31145a6717d4586b1bfad862af480a6.pdf' | relative_url }}) and [Sept. 20, 1957]({{ '/_files/ugd/01b672_f250a9b7d0494b589850cfe80a312fdc.pdf' | relative_url }}).
+- “Encounter and Tensions in World Religions.” *Forum* (World Congress of Faiths, London), 32 (1957): 7-15.
+- [Review]({{ '/_files/ugd/01b672_0a81ca4aec1f45bd91ebc7b8ad76611f.pdf' | relative_url }}) of *Rembrandt and Spinoza*, by W. R. Valentiner. *Jewish Chronicle*, June 21, 1957.
+- Review of *An Historian’s Approach to Religion*, by Arnold Toynbee. *Anglo-Jewish Association Quarterly* 3 (1957): 34.
+- [“Judaism, the Elements.”]({{ '/_files/ugd/01b672_481c357d4a494e97811a6a7d72105e54.pdf' | relative_url }}) *Judaism* (New York) 7 (1958): 3-13.
+- [Review]({{ '/_files/ugd/01b672_eaad2c32eb0345f39d8bbdb265d42438.pdf' | relative_url }}) of *Scritti in Memoria di Sally Mayer*. *Jewish Chronicle,* September 5, 1958.
+- “Maimonides.” *Common Ground* 12, no. 1 (1958): 23-26.
+- [Review]({{ '/_files/ugd/01b672_a7e3ccd395b34db3ac29339318dd1ec0.pdf' | relative_url }}) of *Tradition and Change*, by M. Waxman. *Jewish Chronicle*, May 15, 1959.
+- [Review]({{ '/_files/ugd/01b672_9226fcb0cb554b93a8ec083a8b1360d4.pdf' | relative_url }}) of *The Old Testament: Keystone of Human Culture,* by William Irwin, September 11, 1959.
+- [“The Resurgence of Hebrew.”]({{ '/_files/ugd/01b672_366e70deb2034223b8c7facc9b5e93de.pdf' | relative_url }}) *Jewish Journal of Sociology* 1, no. 2 (1959): 177-186.
+- [“Authority, Religion, and Law.”]({{ '/_files/ugd/01b672_285979f1981c4584ab61eda2d19718ba.pdf' | relative_url }}) *Hibbert Journal* 58 (1960): 115-120.
+- “Back To, Forward From, Ahad Ha’am?” In *Addresses given at the Thirteenth Conference of Anglo-Jewish Preachers* (1960): 35-47.
+- [Review]({{ '/_files/ugd/01b672_12a8ccc96902499a9bc1de701e8bf5e7.pdf' | relative_url }}) of *Jewish Values*, by Louis Jacobs. *Jewish Chronicle*, June 3, 1960.
+- [“Religion and Piety in Spinoza.”]({{ '/_files/ugd/01b672_af1d5fead68a43d8aad55be0406434e0.pdf' | relative_url }}) In *A Seminar on Saints: Papers presented at the Second Seminar of the Union for the Study of Great Religions (India)*, edited by T.M.P. Mahadevan, 437-454. Madras: Ganesh, 1960.
+- [“Hebraists and Non-Hebraists of the Seventeenth Century.”]({{ '/_files/ugd/01b672_8581b310ce6f47a1bb639095c7ccb498.pdf' | relative_url }}) *Journal of Semitic Studies* 6 (1961): 204-221.
+- [Review]({{ '/_files/ugd/01b672_23e68f268f3a43118a59d3d48f8ac88f.pdf' | relative_url }}) of *Martin Buber: Jewish Existentialist*, by Malcolm L. Diamond. *Journal of Semitic Studies* 6 (1961): 114.
+- [Review]({{ '/_files/ugd/01b672_aee0f77ff2964eb9aeda6c66cd75e1ec.pdf' | relative_url }}) of *New Horizons in Old Testament Literature*, by Cyrus H. Gordon. *Journal of Semitic Studies* 6 (1961): 293-294.
+- [Review]({{ '/_files/ugd/01b672_4d73043d3e524023b458cbdfc8ff46f6.pdf' | relative_url }}) of *In His Image: The Jewish Philosophy of Man as Expressed in Rabbinic Tradition*, by Samuel Belkin. *Jewish Chronicle*, Mar. 17, 1961.
+- [Review]({{ '/_files/ugd/01b672_1a918551650e430abf98e51eccac4614.pdf' | relative_url }}) of *The Religion of Israel* (English Translation), by Yehezkel Kaufmann. *Jewish Chronicle*, June 2, 1961.
+- “A Secularist Faith.” *World Faiths* 51 (1961).
+- [*Foundations*. St. Paul’s Lecture 1961.]({{ '/_files/ugd/01b672_65bc5ec5cb684c9c86861eff41d2cf40.pdf' | relative_url }}) London: London Diocesan Council for Christian Jewish Understanding, 1961.
+- [“Religion and Literature.”]({{ '/_files/ugd/01b672_fd773a0030be402aa88ee321d0ad37f6.pdf' | relative_url }}) *Hibbert Journal* 60 (1961-1962): 24-34.
+- [“Is there a Jewish Philosophy?”]({{ '/_files/ugd/01b672_6d141787f4004364a984f3367f2b239d.pdf' | relative_url }}) In *Jewish Philosophy and Philosophers*, edited by Raymond Goldwater, 1-19. London: The Hillel Foundation, 1962.
+- [“Moralization and Demoralization in Jewish Ethics.”]({{ '/_files/ugd/01b672_ea5dcf3815e94ecd86f7d6b0a98bef55.pdf' | relative_url }}) *Judaism* 11, no. 4 (1962): 291-302.
+- “Mysticism: Thick and Thin.” *World Faiths* 55 (1962): 1-12.
+- [Review]({{ '/_files/ugd/01b672_9dc21d5fddc54319a39cda240ef0e977.pdf' | relative_url }}) of *Sacred Books of the World*, by A. C. Bouquet. *Jewish Chronicle*, Dec. 7, 1962.
+- [“Back To, Forward From, Ahad Ha’am?”]({{ '/_files/ugd/01b672_87d573ee37894ae6a8ea5ef3748cd952.pdf' | relative_url }}) *Conservative Judaism* 17, no. 1-2 (1962-3): 20-30.
+- [Review]({{ '/_files/ugd/01b672_77096e1a335546efbcc11d80306d2dea.pdf' | relative_url }}) of *Exclusiveness and Tolerance: Studies in Jewish-Gentile Relations in Medieval and Modern Times*, by Jacob Katz. *Journal of Semitic Studies* 8 (1963): 137f.
+- [Review]({{ '/_files/ugd/01b672_65ad88669cb64f4ca797b5a1615bc5a0.pdf' | relative_url }}) of *Man and His Destiny in the Great Religions*, by S. G. F. Brandon. *Journal of Semitic Studies* 8 (1963): 217 f.

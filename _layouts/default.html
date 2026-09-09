@@ -1,0 +1,14 @@
+---
+---
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ page.lang | default: 'en' }}" dir="{{ page.direction | default: 'ltr' }}">
+  <head>{% include head.html %}</head>
+  <body class="layout--{{ page.layout }}">
+    <nav class="skip-links" aria-label="Skip links"><a href="#main">Skip to content</a></nav>
+    {% include masthead.html %}
+    <div class="initial-content">{{ content }}</div>
+    <div id="footer" class="page__footer"><footer>{% include footer.html %}</footer></div>
+    {% include scripts.html %}
+  </body>
+</html>

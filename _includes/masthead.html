@@ -1,0 +1,21 @@
+<header class="foundation-header">
+  <div class="header-inner">
+    <a class="foundation-title" href="{{ '/' | relative_url }}">Leon Roth <span>Foundation</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="foundation-nav" hidden>Menu <span aria-hidden="true">☰</span></button>
+    <nav id="foundation-nav" class="foundation-nav" aria-label="Main navigation">
+      <ul>
+      {% for item in site.data.navigation.main %}
+        <li class="nav-item{% if item.children %} has-submenu{% endif %}">
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% if item.children %}
+          <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="submenu-{{ forloop.index }}" aria-label="Show {{ item.title }} links" hidden><span aria-hidden="true">⌄</span></button>
+          <ul id="submenu-{{ forloop.index }}" class="submenu">
+            {% for child in item.children %}<li><a href="{{ child.url | relative_url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>{% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

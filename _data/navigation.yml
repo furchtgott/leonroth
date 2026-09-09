@@ -1,0 +1,27 @@
+main:
+  - title: Home
+    url: /
+  - title: Leon Roth
+    url: /leon-roth/
+  - title: About Us
+    url: /about-us/
+    children:
+      - title: Our Mission
+        url: /about-us/
+      - title: Academic Advisory Board
+        url: /academic-advisory-board/
+  - title: 2017 Conference
+    url: /2017-conference/
+  - title: Resources
+    url: /resources/
+    children:
+      - title: Resource Library
+        url: /resources/
+      - title: Books by Leon Roth
+        url: /books-by-leon-roth/
+      - title: Essays in English
+        url: /essays-english/
+      - title: Essays in Hebrew
+        url: /essays-hebrew/
+      - title: Works about Leon Roth
+        url: /works-about-leon-roth/

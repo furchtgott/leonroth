@@ -1,0 +1,25 @@
+[
+  {
+    "url": "http://www.littman.co.uk/cat/roth.html",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "http://www.worlddialogue.org/print.php?id=173",
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://archive.org/details/spinozadescartes00roth",
+    "status": 200,
+    "final_url": "https://archive.org/details/spinozadescartes00roth"
+  },
+  {
+    "url": "https://archive.org/details/nybc210078",
+    "status": 200,
+    "final_url": "https://archive.org/details/nybc210078"
+  },
+  {
+    "url": "https://furchtgott.github.io",
+    "status": 200,
+    "final_url": "https://furchtgott.github.io"
+  }
+]

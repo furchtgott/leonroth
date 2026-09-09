@@ -1,0 +1,40 @@
+title: Leon Roth Foundation
+description: Bringing Leon Roth's philosophical vision into dialogue with the wider philosophical conversation.
+locale: en
+url: "https://furchtgott.github.io"
+baseurl: "/leonroth"
+repository: furchtgott/leonroth
+email: leonrothfoundation@gmail.com
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+search: false
+breadcrumbs: false
+atom_feed:
+  hide: true
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+include:
+  - _files
+exclude:
+  - Site Files
+  - migration
+  - tools
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - MIGRATION.md
+  - requirements-migration.txt
+  - _site_test
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: reading
+      author_profile: false
+      share: false
+      related: false
+      comments: false
+      classes: wide
