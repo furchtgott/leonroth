@@ -2,7 +2,7 @@
 
 Work: Leon Roth, "David Nieto and the Orthodoxy of Spinozism," *Chronicon Spinozanum* 1 (1921), pp. 278–282. The publication/year are inherited from the existing bibliography; the article scan itself verifies the title, signature, and printed pages but does not include the volume's title page.
 
-Current state: **scan_checked; published: false**. The complete draft was compared against the five printed pages by Codex on September 9, 2026. This is an AI-assisted transcription with an AI scan check, not an independent human proofread or an approved scholarly edition.
+Current state: **verified; published: false**. Codex compared the complete draft against the five printed pages on September 9, 2026. The project owner subsequently reported reviewing the text, this review record, and the editorial standard and accepted continued work. This records acceptance of the pilot, not authorization to publish it or a claim of independent scholarly certification.
 
 ## Sources and reproduction
 
@@ -50,7 +50,7 @@ The essay has two substantive section headings and no numbered footnotes. Its sq
 - Preserved meaningful italics and source brackets. Hebrew spans have `lang="he" dir="rtl"`; no translation was substituted for the printed Hebrew.
 - Added five labelled page markers, each pointing to the corresponding original PDF page. These markers are editorial navigation, not source prose.
 
-## Issues for the independent editor
+## Review checklist supplied with the pilot
 
 1. Compare the entire text, including all nine Hebrew passages, against the scan. No reading has been intentionally left as an unmarked guess, but the AI scan check is fallible and needs independent review.
 2. Approve the normalization of long s/English ss ligatures, heading case, print ornaments, and line-end hyphenation. Confirm that preserving the source's quotation punctuation is the desired reading-edition policy.
@@ -63,11 +63,13 @@ Technical QA passed for the completed draft: normal builds preserve 18 HTML page
 
 | Field | Value |
 | --- | --- |
-| Independent reviewer | Pending |
-| Review date | Pending |
-| Exact content commit reviewed | Pending |
-| Textual issues resolved | Pending independent review |
-| Editorial policy approved | Pending |
+| Reviewer | Project owner, through the current Codex task |
+| Review date | September 9, 2026 |
+| Exact content commit reviewed | `8d7853a73b86224c1e8bea1b3911d6b2cd2bf954` |
+| Review outcome | Pilot accepted; no textual amendments requested |
+| Editorial policy approved | Version 1 accepted for continued pilot work |
 | Publication approved | No |
 
-After review, fill these fields and add `reviewed_by`, `reviewed_on`, and `reviewed_revision` to the work, with `digitization_status: verified`. Keep `published: false` until an explicit release decision. Do not assign a human reviewer or mark verification complete on their behalf.
+Approval evidence: the project owner wrote, “OK I reviewed the review, the david nieto piece, and the editorial standard. good job. keep going.” The revision above was the feature branch/PR head presented for that review. The body hash is unchanged by the subsequent approval metadata update.
+
+The user did not describe their comparison method or claim an independent line-by-line collation, Hebrew proficiency, or external verification of the volume's title page. None of those claims is inferred here. The source/date observations above remain part of the edition's provenance. `verified` records the owner's acceptance of this pilot under the workflow; `published: false` remains in force. A future substantive text change needs renewed review.

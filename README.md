@@ -24,9 +24,15 @@ The digital archive is opt-in and is **not included in normal or production buil
 BUNDLE_PATH=vendor/bundle bundle exec jekyll serve --config _config.yml,_config.works-preview.yml --destination _site_test
 ```
 
-Open [the works index](http://127.0.0.1:4000/leonroth/works/) or [the unpublished David Nieto pilot](http://127.0.0.1:4000/leonroth/works/david-nieto/). See [the content model and safety notes](_docs/digitized-works.md), [the digitization plan](_docs/digitization-plan.md), and [the pilot review record](_docs/pilots/david-nieto-review.md).
+Open [the works index](http://127.0.0.1:4000/leonroth/works/) or one of the unpublished pilots:
 
-Works default to `published: false`; this preview config explicitly includes them. Scan checking and independent editorial approval are separate statuses. Before committing an edition, run:
+- [David Nieto](http://127.0.0.1:4000/leonroth/works/david-nieto/) — accepted by the project owner.
+- [Spinoza in Recent English Thought](http://127.0.0.1:4000/leonroth/works/spinoza-recent-english-thought/) — seven footnotes; editorial review pending.
+- [Introduction to Freedom and Government](http://127.0.0.1:4000/leonroth/works/freedom-government-introduction/) — Hebrew; review by a proficient reader pending.
+
+See [the content model and safety notes](_docs/digitized-works.md), [the digitization plan](_docs/digitization-plan.md), and [the pilot review record](_docs/pilots/david-nieto-review.md).
+
+Works default to `published: false`; this preview config explicitly includes them. Scan checking, editorial acceptance, and permission to publish are separate decisions. Before committing an edition, run:
 
 ```sh
 BUNDLE_PATH=vendor/bundle bundle exec ruby tools/check_works.rb

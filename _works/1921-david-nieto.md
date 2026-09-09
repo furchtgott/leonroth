@@ -11,13 +11,16 @@ pdf: "/_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf"
 permalink: "/works/david-nieto/"
 source_type: "Journal article"
 translator: "Leon Roth"
-digitization_status: "scan_checked"
+digitization_status: "verified"
 scan_checked_by: "Codex"
 scan_checked_on: "2026-09-09"
 review_record: "_docs/pilots/david-nieto-review.md"
+reviewed_by: "Project owner (review in Codex)"
+reviewed_on: "2026-09-09"
+reviewed_revision: "8d7853a73b86224c1e8bea1b3911d6b2cd2bf954"
 published: false
 description: "Leon Roth's introduction and translation of a responsum concerning David Nieto, with the original five-page scan. Unpublished editorial pilot."
-review_notice: "Working transcription: checked against all five scan pages by Codex. Independent editorial review is pending; this edition is not approved for publication."
+review_notice: "The project owner has reviewed and accepted this pilot and its editorial standard. The transcription remains unpublished pending a separate release decision."
 notes: "Transcribed from the 1921 printing. Long s and the English ss ligature are normalized to modern s/ss; print line breaks are reflowed and line-end word divisions joined. Original wording, spellings, Hebrew, emphasis, and bracketed explanations are retained. Numbered page markers link to the scan. The printed spelling ‘misconstruktion’ and the bracketed date ‘June 1705’ are retained. See the repository's pilot review record for editorial provenance."
 sitemap: false
 ---

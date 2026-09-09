@@ -1,10 +1,10 @@
 # Leon Roth digitization plan
 
-Working editorial standard, version 1 — September 9, 2026.
+Editorial standard, version 1 — accepted by the project owner on September 9, 2026. New pilot-specific presentation choices remain subject to their own review.
 
 ## Scope and first milestone
 
-Create faithful, readable HTML editions while preserving the scans, bibliography citations, and public PDF addresses. First complete the David Nieto pilot, review the editorial choices, then test an English work with footnotes and a short Hebrew work before scheduling larger batches. Only the David Nieto pilot is being transcribed in this PR.
+Create faithful, readable HTML editions while preserving the scans, bibliography citations, and public PDF addresses. The project owner has reviewed and accepted the David Nieto pilot, its review record, and this editorial standard. Two further pilots now test real English footnotes and a complete Hebrew introduction. All three remain unpublished; the two new drafts await editorial review before scheduling larger batches.
 
 The initial bibliography inventory has 76 top-level English entries and 41 Hebrew entries. Of these, 67 English and 31 Hebrew entries already have local document links; the other 19 need source matching before assuming a scan is missing. These are bibliography-entry counts, not unique-work counts: reviews, multipart essays, and editions need reconciliation. The site's 209 preserved PDF URLs also include books and other resources, so that number is not the transcription backlog.
 
@@ -19,7 +19,7 @@ The initial bibliography inventory has 76 top-level English entries and 41 Hebre
 
 ## Work inventory and prioritization
 
-Maintain one record per work in `_docs/digitization-catalog.yml`. Start with the three pilot candidates. Expand the catalog by matching the existing bibliographies and `migration/assets.json`; do not rewrite the bibliographies during inventory work.
+Maintain one record per work in `_docs/digitization-catalog.yml`. The seed catalog currently records three transcribed pilots and two inspected candidates. Expand it by matching the existing bibliographies and `migration/assets.json`; do not rewrite the bibliographies during inventory work. Catalog-only states such as `candidate` or `deferred_source_review` do not create pages and are separate from the four work front-matter statuses.
 
 For each record retain a stable ID, title, language, bibliographic year, bibliography route, current PDF path(s), local original filename where available, scan page count, printed page range, extraction method, editorial status, reviewer, open issues, and priority rationale. Record uncertainty instead of inferring missing dates or page ranges from filenames. Separate multiple editions; group genuinely multipart essays under one work with ordered source parts.
 
@@ -44,7 +44,7 @@ Prioritize short, complete, legible, important works for which a reviewer is ava
 | Mixed languages | Mark embedded text with `lang` and `dir`, for example `<span lang="he" dir="rtl">טבע</span>`. Review numbers and punctuation visually. |
 | Editorial notes | Keep new commentary outside the transcription, labelled as editorial. Historical/source-critical corrections need their own supporting evidence; transcription checks alone do not establish historical accuracy. |
 
-These are the policy choices used in the pilot. The Foundation's editor should approve or revise them before they become the standard for a larger batch.
+The project owner accepted these policy choices after reviewing the David Nieto pilot. The new English pilot proposes collecting source footnotes at the end with continuous HTML numbering and a source-page/number map in its review record. The new Hebrew pilot normalizes quotation/abbreviation glyphs while preserving spelling. Review these concrete applications before carrying them into a larger batch.
 
 ## Per-work procedure
 
@@ -65,7 +65,7 @@ These are the policy choices used in the pilot. The Foundation's editor should a
 | `scan_checked` | Complete draft checked against the scan; identify who or what checked it | No |
 | `verified` | Named editorial reviewer has approved the text and recorded the reviewed revision | Only with an explicit `published: true` |
 
-For each pilot create `_docs/pilots/<work-id>-review.md`: source hashes, extraction method, checks by page, corrections/normalizations, outstanding questions, and a human review section. An AI scan check must be attributed to the AI; it does not constitute an independent human review. David Nieto currently has `scan_checked` status and remains unpublished.
+For each pilot create `_docs/pilots/<work-id>-review.md`: source hashes, extraction method, checks by page, corrections/normalizations, outstanding questions, and a human review section. An AI scan check must be attributed to the AI; it does not constitute an independent human review. David Nieto now has `verified` status following the owner's acceptance, with the scope of that review recorded precisely. The English footnote and Hebrew pilots remain `scan_checked`. All remain unpublished.
 
 For a verified work, front matter must also contain `reviewed_by`, `reviewed_on` (quoted ISO date), `reviewed_revision` (the full content commit SHA), and `review_record` (a repository-relative path to the review record). The reviewer approves the transcription at that revision; the subsequent metadata-only approval commit records it. Use `translator` separately from `author` where relevant.
 
@@ -73,19 +73,19 @@ For a verified work, front matter must also contain `reviewed_by`, `reviewed_on`
 
 | Pilot | Purpose | Next action |
 | --- | --- | --- |
-| David Nieto (1921), 5 scan pages, printed pp. 278–282 | Long-s normalization, unreliable embedded OCR, Hebrew inside English, source pagination, translated letter | Review the completed scan-checked draft and this editorial standard |
-| Note on the Relationship between Locke and Descartes (bibliography: 1935), 3 scan pages | Short English comparison case; inspect notes/citations and source metadata before selection | Inspect the scan; its original filename says 1937, so verify the discrepancy rather than copying the filename |
-| Yovel Spinoza (1932), 2 scan pages | Hebrew layout and extraction/review workflow | Inspect completeness, columns, and typography; arrange a proficient Hebrew reviewer before transcription |
+| David Nieto (1921), 5 scan pages, printed pp. 278–282 | Long-s normalization, unreliable embedded OCR, Hebrew inside English, source pagination, translated letter | Accepted by the owner at revision `8d7853a73b86224c1e8bea1b3911d6b2cd2bf954`; retain unpublished status |
+| Spinoza in Recent English Thought (1927), 6 scan pages, printed pp. 205–210 | Seven real notes, numbering restarted by source page, italics, German/Latin, paragraph joins | Review the completed scan-checked draft and source-note map |
+| Introduction to Freedom and Government (1945), 2 text pages plus title page, printed ה–ו | Complete Hebrew prose, RTL, historical spelling, date/signature, original page labels | Proficient Hebrew reader to review the completed scan-checked draft |
 
-The latter two are candidates only. If the English candidate lacks representative footnotes, choose another short footnoted essay after inspection. Do not treat these titles as reviewed or create public placeholders for them.
+The original English candidate, *Note on the Relationship between Locke and Descartes*, has no footnotes. Its closing date says Jerusalem, May, 1935, supporting the bibliography's year despite the filename's 1937. Retain it for a later comparison batch. *Yovel Spinoza* has dense newspaper columns, no text layer, and obscured words; defer it for source review. This source inspection changed the pilot selection without creating extra placeholder pages or altering either bibliography.
 
 The pilot succeeds when every printed page has a matching transcription segment, all notes and quoted languages are checked, remaining uncertainties are explicit, the editor has approved the policy, and publication exclusion has passed. The first work can be technically complete while editorial sign-off remains pending; report those separately.
 
 ## Tooling and estimating the backlog
 
-The first pilot used Poppler's existing-text extraction plus visual comparison of 250 dpi page renders and enlarged crops. Its OCR layer repeatedly confused long s with f, lost Hebrew, and misread centuries. Local Tesseract could not start because its linked `libarchive.13.dylib` was unavailable. No system installation was changed to fix it; selecting or repairing a general OCR tool belongs to the next extraction benchmark. Do not infer comparative OCR accuracy from this single pilot.
+The first pilot used Poppler's existing-text extraction plus visual comparison of 250 dpi page renders and enlarged crops. Its OCR layer repeatedly confused long s with f, lost Hebrew, and misread centuries. The second English pilot also uses existing PDF text corrected visually; its OCR misread the year 1915 as 1916. The Hebrew introduction has no text layer and was manually read from two legible pages, with enlarged crops. Local Tesseract could not start because its linked `libarchive.13.dylib` was unavailable. No system installation was changed to fix it; selecting or repairing a general OCR tool belongs to the next extraction benchmark. These methods were not a controlled comparison and establish no OCR accuracy percentage.
 
-For the next pilots, log active minutes separately for source preparation, extraction, text correction, script-specific review, and layout checks. Record corrected errors in a manually checked sample of equal size for each method, separating character errors, missing text, reading order, and note attachment. A second OCR tool may help locate disagreements, but agreement is not proof of correctness. Record tool/model version and settings; do not replace stable outputs by rerunning a different version without review.
+For the next extraction benchmark, log active minutes separately for source preparation, extraction, text correction, script-specific review, and layout checks. The present pilots did not capture reliable active minutes per phase; do not use conversational wall time as editorial labor or a throughput estimate. Record corrected errors in a manually checked sample of equal size for each method, separating character errors, missing text, reading order, and note attachment. A second OCR tool may help locate disagreements, but agreement is not proof of correctness. Record tool/model version and settings; do not replace stable outputs by rerunning a different version without review.
 
 Estimate remaining effort only after these pilots. Group works by language and complexity, then multiply observed correction/review time per page by the pages in that group and add source matching and final QA. Set throughput according to reviewer availability. No archive-wide completion date or unsupported accuracy percentage is promised here.
 

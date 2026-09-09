@@ -20,7 +20,7 @@ Merging this feature alone should not create or change a public URL or existing 
 
 ## Content model
 
-Each work is a Markdown document in `_works/`. The filename is for editorial organization; the explicit `permalink` is the stable reader-facing URL. One pilot exists: `1921-david-nieto.md`, using metadata and the PDF link already in `essays-english.md`. It now contains a complete scan-checked draft, explicitly unpublished and pending independent editorial review. See [the plan](digitization-plan.md) and [pilot record](pilots/david-nieto-review.md).
+Each work is a Markdown document in `_works/`. The filename is for editorial organization; the explicit `permalink` is the stable reader-facing URL. Three unpublished pilots exist: David Nieto (1921), accepted by the project owner; Spinoza in Recent English Thought (1927), awaiting review of its text and seven notes; and the Hebrew introduction to Freedom and Government (1945), awaiting a proficient Hebrew reader. Each has a source/review record under `_docs/pilots/`. See [the plan](digitization-plan.md) for selection and next steps.
 
 To add a work, copy the sample, choose a unique filename and permalink, and edit its front matter and Markdown body:
 
@@ -48,7 +48,7 @@ Replace the example PDF path with an existing file. Use `layout: work`, `title`,
 
 `year` is an integer when known; omit unknown years. Keep volume, issue, and page ranges as quoted strings. Optional `editors`, `publisher`, `place`, `original_title`, `translated_title`, `translator`, `notes`, and `source_type` are plain text. Use a YAML list for `topics`. Notes appear in a separate editorial section; the layout escapes metadata. Rich prose belongs in the Markdown body.
 
-Status values are `forthcoming`, `in_progress`, `scan_checked`, and `verified`. They describe editorial state; publication additionally requires an explicit `published: true`. Use `scan_checked` after a complete scan comparison and `verified` only after independent editorial approval, recorded with `reviewed_by`, `reviewed_on`, `reviewed_revision`, and `review_record`. The David Nieto pilot remains `scan_checked` and `published: false`.
+Status values are `forthcoming`, `in_progress`, `scan_checked`, and `verified`. They describe editorial state; publication additionally requires an explicit `published: true`. Use `scan_checked` after a complete scan comparison and `verified` only after editorial acceptance, recorded with `reviewed_by`, `reviewed_on`, `reviewed_revision`, and `review_record`. State the actual review scope without inventing a comparison method or reviewer qualifications. David Nieto is now `verified`; both new pilots are `scan_checked`; all three keep `published: false`.
 
 The layout reuses the existing site shell, navigation, footer, reading-page classes, serif typography, and color variables. The extra CSS only targets archive components, with a narrower reading measure, mobile sizing, logical list/quote spacing, and footnotes.
 
@@ -60,6 +60,8 @@ A sentence with a note.[^1]
 [^1]: The note, checked against the original scan.
 ```
 
+Page markers use `{% include work-page.html number=205 scan_page=1 %}`. When a source uses Hebrew page numerals, `{% include work-page.html number=5 label="ה" scan_page=2 %}` keeps the stable `page-5` anchor and PDF mapping while displaying ה. The optional label is escaped and isolated for direction. Omit it for ordinary decimal labels. Use decimal-only `pages: "5–6"` in the English citation and explain original Hebrew numbering in editorial notes; mixing both numbering systems in a single automatically directed metadata value can reverse the decimal range.
+
 ## Hebrew and mixed text
 
 `language: Hebrew` (also `he` or `עברית`) automatically sets the work's main reading region to `lang="he" dir="rtl"` and selects the Hebrew Essays return link. English/default works use `lang="en" dir="ltr"` and English Essays. You do not need to set page-wide direction for Hebrew.
@@ -68,7 +70,7 @@ The Foundation's existing English site navigation and metadata labels remain LTR
 
 ## Index and future bibliography integration
 
-The index automatically lists `site.works`, filtered by publication eligibility outside an explicit preview; no duplicate public catalog data is needed. The separate `_docs/digitization-catalog.yml` tracks editorial candidates without creating pages. The index sorts by numeric year (undated items last), with title sorting as a tie-breaker. Change `sort_by` in `_preview/works/index.html` to `title` or `language` for those orders. Later, simple Liquid `group_by: 'language'` or `group_by: 'year'` can provide section headings. No JavaScript filtering is necessary.
+The index automatically lists `site.works`, filtered by publication eligibility outside an explicit preview; no duplicate public catalog data is needed. The separate `_docs/digitization-catalog.yml` tracks editorial candidates without creating pages. The index also displays an optional translated title, making a Hebrew heading such as `הקדמה` identifiable to English readers. It sorts by numeric year (undated items last), with title sorting as a tie-breaker. Change `sort_by` in `_preview/works/index.html` to `title` or `language` for those orders. Later, simple Liquid `group_by: 'language'` or `group_by: 'year'` can provide section headings. No JavaScript filtering is necessary.
 
 The existing English and Hebrew bibliographies are Markdown lists, not structured data. Leave those lists and all PDF URLs as-is for now.
 
@@ -94,7 +96,7 @@ Proposed rendering logic, **not connected to the current bibliography**:
 {% endif %}
 ```
 
-Check that the collection is output-enabled when implementing this. A missing, unpublished, or unverified edition must leave the PDF as the title link. The pilot's `scan_checked` status must not redirect bibliography readers to an unapproved edition. Start with one reviewed entry; preserve existing citations, order, unlinked works, and multipart PDF references. Do not derive slugs from titles at render time.
+Check that the collection is output-enabled when implementing this. A missing, unpublished, or unverified edition must leave the PDF as the title link. A pilot's `published: false` flag must prevent bibliography redirection even after editorial acceptance. Start with one reviewed entry; preserve existing citations, order, unlinked works, and multipart PDF references. Do not derive slugs from titles at render time.
 
 ## Local validation
 
@@ -111,7 +113,7 @@ python3 tools/check_site.py --site _site_test
 BUNDLE_PATH=vendor/bundle bundle exec jekyll serve --config _config.yml,_config.works-preview.yml --destination _site_test --host 127.0.0.1
 ```
 
-Visit `/leonroth/`, `/leonroth/essays-english/`, `/leonroth/essays-hebrew/`, `/leonroth/works/`, and `/leonroth/works/david-nieto/` on `http://127.0.0.1:4000`. Follow the sample's PDF link. Check desktop and mobile widths, keyboard focus, and a temporary Hebrew fixture with headings, lists, and a footnote. Do not commit QA fixtures as archive content.
+Visit `/leonroth/`, `/leonroth/essays-english/`, `/leonroth/essays-hebrew/`, `/leonroth/works/`, and `/leonroth/works/david-nieto/` on `http://127.0.0.1:4000`. Also visit `/leonroth/works/spinoza-recent-english-thought/` and `/leonroth/works/freedom-government-introduction/`. Follow each scan link. Check desktop and mobile widths, keyboard focus, the seven real English footnotes/backlinks, and the Hebrew text/date/page markers. Use a temporary Hebrew fixture for structural elements absent from the real introduction, such as lists and footnotes. Do not commit QA fixtures as archive content.
 
 For a custom-domain-shaped build, create an override **outside the repository** containing `url: "https://www.leonroth.org"` and `baseurl: ""`. Append it to the comma-separated config list, build to a temporary destination, then run `tools/check_site.py --site /your/temp/output --baseurl ''`. This only builds files locally; it changes no hosting settings.
 
@@ -119,7 +121,7 @@ Normal builds must have no `works/` output, no `assets/css/works.css`, and no wo
 
 The existing Pages pull-request workflow validates the normal production build without deployment. A separate `works-check.yml` PR workflow now checks editorial metadata, publication boundaries, and both normal and opt-in preview builds. It has only `contents: read` permission and no deployment steps. No hosted preview or production deployment setting was added or changed.
 
-### Validation performed on September 9, 2026
+### Initial architecture validation performed on September 9, 2026
 
 - Normal builds: 18 HTML pages, all 17 original routes, 601 internal links, and 209 PDF URLs passed the existing checker.
 - Preview builds under both `/leonroth/` and a custom-domain-shaped empty base path: 20 HTML pages and 650 internal links passed, with all original routes and PDFs preserved. No Jekyll errors; only existing theme/dependency warnings.
@@ -131,7 +133,17 @@ During this task, a separate change advanced remote `main` to `962dace83e44af07c
 
 ## Before merging or publishing
 
-- Review the pilot's citation, original PDF association, full transcription, and documented editorial choices; independent editorial verification is pending.
+### Second pilot batch validation, September 9, 2026
+
+- Normal output still contains 18 HTML pages, 601 checked local links, and all 209 PDF URLs. Compared with the previous pilot build, no output paths were added or removed and every byte matched except the generated feed timestamp.
+- Both base-path preview builds contain 22 HTML pages and pass 731 local-link checks, with all 17 original routes and 209 PDF URLs retained. The index contains three unpublished works in year order.
+- Metadata checks pass for all three works. The temporary-fixture publication tests pass normal omission, explicit draft preview, approved-only release, index/sitemap exclusion, and rejection of invalid approval/publication metadata.
+- The English pilot has seven working notes/backlinks, with 15px note text. The Hebrew introduction uses real RTL text, preserved Hebrew source labels, and the correct two PDF page destinations. Both passed 390px and 320px overflow checks and desktop inspection. The range shown in the English citation stays LTR; the index displays the optional translated title.
+- Original/public PDF page images match at 180 dpi for both new pilots. Their hashes and page checks are recorded in the corresponding review records. The David Nieto Markdown body hash still matches the revision accepted by the user.
+
+### Outstanding review
+
+- David Nieto and editorial standard version 1 have been accepted by the project owner. Review the two new pilots separately, including all seven English notes and the full Hebrew text; they remain scan-checked drafts.
 - Review the English/mobile presentation and Hebrew reading direction on representative real text.
 - Keep unrelated concurrent PDF/migration edits out of this feature's commit.
 - Confirm the default build continues to omit the archive. Do not dispatch the Pages workflow for preview.
