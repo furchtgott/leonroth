@@ -28,6 +28,7 @@ layout: default
       {% if page.topics and page.topics.size > 0 %}<div><dt>Topics</dt><dd><bdi>{{ page.topics | join: ', ' | escape }}</bdi></dd></div>{% endif %}
       {% if page.digitization_status and page.digitization_status != '' %}<div><dt>Transcription status</dt><dd>{{ page.digitization_status | replace: '_', ' ' | capitalize | escape }}</dd></div>{% endif %}
     </dl>
+    {% if page.review_notice and page.review_notice != '' %}<p class="work-review-notice" lang="en" dir="ltr">{{ page.review_notice | escape }}</p>{% endif %}
     {% if page.pdf and page.pdf != '' %}<p class="work-scan" lang="en" dir="ltr"><a class="work-pdf-link" href="{{ page.pdf | relative_url }}">View original scan (PDF)</a></p>{% endif %}
   </header>
   <article class="reading-content work-transcription" aria-labelledby="page-title">{{ content }}</article>

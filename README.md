@@ -24,7 +24,16 @@ The digital archive is opt-in and is **not included in normal or production buil
 BUNDLE_PATH=vendor/bundle bundle exec jekyll serve --config _config.yml,_config.works-preview.yml --destination _site_test
 ```
 
-Open [the works index](http://127.0.0.1:4000/leonroth/works/) or [the David Nieto sample](http://127.0.0.1:4000/leonroth/works/david-nieto/). See [the content model, safety notes, and validation guide](_docs/digitized-works.md).
+Open [the works index](http://127.0.0.1:4000/leonroth/works/) or [the unpublished David Nieto pilot](http://127.0.0.1:4000/leonroth/works/david-nieto/). See [the content model and safety notes](_docs/digitized-works.md), [the digitization plan](_docs/digitization-plan.md), and [the pilot review record](_docs/pilots/david-nieto-review.md).
+
+Works default to `published: false`; this preview config explicitly includes them. Scan checking and independent editorial approval are separate statuses. Before committing an edition, run:
+
+```sh
+BUNDLE_PATH=vendor/bundle bundle exec ruby tools/check_works.rb
+BUNDLE_PATH=vendor/bundle bundle exec ruby tools/test_works_publication.rb
+```
+
+The archive PR workflow runs these checks plus normal and preview builds, with no deployment permissions.
 
 Do not manually dispatch `pages.yml` for a preview: its deployment job also runs on `workflow_dispatch`. Keep the production workflow and its configuration unchanged.
 

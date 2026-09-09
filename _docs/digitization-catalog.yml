@@ -1,0 +1,38 @@
+# Seed work catalog. These records do not create Jekyll pages.
+# Bibliography metadata for candidates still requires scan verification.
+- id: david-nieto
+  title: "David Nieto and the Orthodoxy of Spinozism"
+  year: 1921
+  language: English
+  bibliography: /essays-english/
+  pdf: /_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf
+  local_original: "Site Files/David Nieto.pdf"
+  scan_pages: 5
+  printed_pages: "278–282"
+  status: scan_checked
+  priority: 1
+  review_record: _docs/pilots/david-nieto-review.md
+  next_action: "Independent editorial review, including Hebrew and the transcription policy."
+- id: locke-descartes
+  title: "Note on the Relationship between Locke and Descartes"
+  year: 1935
+  language: English
+  bibliography: /essays-english/
+  pdf: /_files/ugd/01b672_c6c2c2f7d0a643d1a51d2a62116ddc7c.pdf
+  local_original: "Site Files/Note on the Relationship between Locke and Descartes 1937.pdf"
+  scan_pages: 3
+  printed_pages: "414–416"
+  status: candidate
+  priority: 2
+  next_action: "Inspect notes and verify the year: bibliography says 1935, original filename says 1937."
+- id: yovel-spinoza
+  title: "Yovel Spinoza"
+  year: 1932
+  language: Hebrew
+  bibliography: /essays-hebrew/
+  pdf: /_files/ugd/01b672_e7a86da2376144939028c81161402e0b.pdf
+  local_original: "Site Files/yovel spinoza small.pdf"
+  scan_pages: 2
+  status: candidate
+  priority: 3
+  next_action: "Inspect scan layout/completeness and arrange a proficient Hebrew reviewer."

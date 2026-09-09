@@ -8,9 +8,11 @@ Inspected on September 9, 2026 before editing:
 - GitHub Pages reports `build_type: workflow`, source `main` at `/`, and `https://www.leonroth.org/` as the live URL. This is an Actions deployment, not GitHub's branch-based Jekyll builder.
 - `.github/workflows/pages.yml` builds pushes to `main`, pull requests, and manual dispatches. Pull requests only build and check. **Manual dispatch can deploy**, including when selecting another branch, so do not use it for staging.
 - The workflow uses Ruby 4.0, Jekyll 4.4.1, Minimal Mistakes 4.28.1, and a temporary URL/base-path config from `actions/configure-pages`. Local layouts (`default`, `reading`, `foundation-home`), includes, and `assets/css/main.scss` provide the Foundation's design.
-- This work is isolated on `feature/digitized-works`. No production workflow, `_config.yml`, navigation, bibliography, hosting setting, DNS record, or original scan is changed by this feature. No push, merge, or deployment is part of this task.
+- This work is isolated on `feature/digitized-works`. The production workflow, navigation, bibliography, hosting settings, DNS, and original scans remain unchanged. Following approval of the roadmap, the branch was pushed and draft PR #1 opened; no merge or deployment is authorized. `_config.yml` now adds only a works-scoped `published: false` default, which does not register or publish the collection.
 
 The collection is registered **only in `_config.works-preview.yml`**. Without that explicit config, Jekyll ignores `_works/` and `_preview/`. `_preview/` holds the index and its stylesheet, with explicit public permalinks for local inspection. `_docs/` also stays out of site output.
+
+The preview explicitly sets `works_preview: true` and `unpublished: true`. These settings must stay out of production. Works default to unpublished even after a future production collection registration; the public index requires both `published: true` and `digitization_status: verified`. The metadata checker also requires a named editorial reviewer, review date, reviewed content commit, and review record for verified editions.
 
 The shared head includes the extra stylesheet only for `work` and `works-index` layouts, preserving the rendered head of existing pages. New preview pages have `noindex, nofollow` and `sitemap: false`; those are discovery controls, not access controls. The normal build's omission of these pages is the publication boundary.
 
@@ -18,7 +20,7 @@ Merging this feature alone should not create or change a public URL or existing 
 
 ## Content model
 
-Each work is a Markdown document in `_works/`. The filename is for editorial organization; the explicit `permalink` is the stable reader-facing URL. One sample exists: `1921-david-nieto.md`, using metadata and the PDF link already in `essays-english.md`. Its body is a clearly marked placeholder, not an OCR result or verified transcription.
+Each work is a Markdown document in `_works/`. The filename is for editorial organization; the explicit `permalink` is the stable reader-facing URL. One pilot exists: `1921-david-nieto.md`, using metadata and the PDF link already in `essays-english.md`. It now contains a complete scan-checked draft, explicitly unpublished and pending independent editorial review. See [the plan](digitization-plan.md) and [pilot record](pilots/david-nieto-review.md).
 
 To add a work, copy the sample, choose a unique filename and permalink, and edit its front matter and Markdown body:
 
@@ -37,6 +39,7 @@ pdf: "/_files/ugd/existing-file.pdf"
 permalink: "/works/unique-title/"
 source_type: "Journal article"
 digitization_status: "forthcoming"
+published: false
 sitemap: false
 ---
 ```
@@ -45,7 +48,7 @@ Replace the example PDF path with an existing file. Use `layout: work`, `title`,
 
 `year` is an integer when known; omit unknown years. Keep volume, issue, and page ranges as quoted strings. Optional `editors`, `publisher`, `place`, `original_title`, `translated_title`, `translator`, `notes`, and `source_type` are plain text. Use a YAML list for `topics`. Notes appear in a separate editorial section; the layout escapes metadata. Rich prose belongs in the Markdown body.
 
-Suggested status values are `forthcoming`, `in_progress`, and `verified`. These describe editorial state; they do not automatically authorize publication. Set `verified` only after checking the transcription against the scan.
+Status values are `forthcoming`, `in_progress`, `scan_checked`, and `verified`. They describe editorial state; publication additionally requires an explicit `published: true`. Use `scan_checked` after a complete scan comparison and `verified` only after independent editorial approval, recorded with `reviewed_by`, `reviewed_on`, `reviewed_revision`, and `review_record`. The David Nieto pilot remains `scan_checked` and `published: false`.
 
 The layout reuses the existing site shell, navigation, footer, reading-page classes, serif typography, and color variables. The extra CSS only targets archive components, with a narrower reading measure, mobile sizing, logical list/quote spacing, and footnotes.
 
@@ -65,7 +68,7 @@ The Foundation's existing English site navigation and metadata labels remain LTR
 
 ## Index and future bibliography integration
 
-The index automatically lists `site.works`; no duplicate catalog data is needed. It sorts by numeric year (undated items last), with title sorting as a tie-breaker. Change `sort_by` in `_preview/works/index.html` to `title` or `language` for those orders. Later, simple Liquid `group_by: 'language'` or `group_by: 'year'` can provide section headings. No JavaScript filtering is necessary.
+The index automatically lists `site.works`, filtered by publication eligibility outside an explicit preview; no duplicate public catalog data is needed. The separate `_docs/digitization-catalog.yml` tracks editorial candidates without creating pages. The index sorts by numeric year (undated items last), with title sorting as a tie-breaker. Change `sort_by` in `_preview/works/index.html` to `title` or `language` for those orders. Later, simple Liquid `group_by: 'language'` or `group_by: 'year'` can provide section headings. No JavaScript filtering is necessary.
 
 The existing English and Hebrew bibliographies are Markdown lists, not structured data. Leave those lists and all PDF URLs as-is for now.
 
@@ -81,7 +84,7 @@ Proposed rendering logic, **not connected to the current bibliography**:
 
 ```liquid
 {% assign edition = site.works | where: 'url', entry.readable | first %}
-{% if edition and edition.digitization_status == 'verified' %}
+{% if edition and edition.published == true and edition.digitization_status == 'verified' %}
   <a href="{{ edition.url | relative_url }}">{{ entry.title | escape }}</a>
   <a href="{{ entry.pdf | relative_url }}">PDF</a>
 {% elsif entry.pdf %}
@@ -91,7 +94,7 @@ Proposed rendering logic, **not connected to the current bibliography**:
 {% endif %}
 ```
 
-Check that the collection is output-enabled when implementing this. A missing, unpublished, or unverified edition must leave the PDF as the title link. The sample's `forthcoming` status must not redirect bibliography readers to a placeholder. Start with one reviewed entry; preserve existing citations, order, unlinked works, and multipart PDF references. Do not derive slugs from titles at render time.
+Check that the collection is output-enabled when implementing this. A missing, unpublished, or unverified edition must leave the PDF as the title link. The pilot's `scan_checked` status must not redirect bibliography readers to an unapproved edition. Start with one reviewed entry; preserve existing citations, order, unlinked works, and multipart PDF references. Do not derive slugs from titles at render time.
 
 ## Local validation
 
@@ -114,7 +117,7 @@ For a custom-domain-shaped build, create an override **outside the repository** 
 
 Normal builds must have no `works/` output, no `assets/css/works.css`, and no work routes in the sitemap. Compare pre-feature and post-feature normal builds: HTML, navigation, bibliography links, PDFs, and CSS should match; the feed's build timestamp can vary. Existing Minimal Mistakes Sass deprecation warnings predate this feature.
 
-The existing pull-request workflow can validate the normal production build without deployment, but does not enable this preview config. No hosted preview or additional Actions workflow was added; local preview is sufficient and avoids touching production deployment settings.
+The existing Pages pull-request workflow validates the normal production build without deployment. A separate `works-check.yml` PR workflow now checks editorial metadata, publication boundaries, and both normal and opt-in preview builds. It has only `contents: read` permission and no deployment steps. No hosted preview or production deployment setting was added or changed.
 
 ### Validation performed on September 9, 2026
 
@@ -128,7 +131,7 @@ During this task, a separate change advanced remote `main` to `962dace83e44af07c
 
 ## Before merging or publishing
 
-- Review the sample's citation and original PDF association; no transcription has been verified.
+- Review the pilot's citation, original PDF association, full transcription, and documented editorial choices; independent editorial verification is pending.
 - Review the English/mobile presentation and Hebrew reading direction on representative real text.
 - Keep unrelated concurrent PDF/migration edits out of this feature's commit.
 - Confirm the default build continues to omit the archive. Do not dispatch the Pages workflow for preview.

@@ -9,9 +9,11 @@ sort_by: year
 sitemap: false
 ---
 <p>Readable editions of Leon Roth’s works, alongside their original scans.</p>
-<p class="works-preview-note">Development preview: the sample below contains metadata only. Its transcription is forthcoming.</p>
+{% if site.works_preview %}<p class="works-preview-note">Development preview: unpublished transcriptions are included for editorial review.</p>{% endif %}
 {% assign sort_key = page.sort_by | default: 'year' %}
-{% assign sorted_works = site.works | sort_natural: 'title' | sort: sort_key, 'last' %}
+{% assign listed_works = site.works %}
+{% unless site.works_preview %}{% assign listed_works = listed_works | where: 'published', true | where: 'digitization_status', 'verified' %}{% endunless %}
+{% assign sorted_works = listed_works | sort_natural: 'title' | sort: sort_key, 'last' %}
 <ol class="works-list" aria-label="Digitized works">
   {% for work in sorted_works %}
   <li>
