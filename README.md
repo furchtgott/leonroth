@@ -16,6 +16,18 @@ bundle exec jekyll serve
 
 On this Mac, the newly installed Ruby is available at `/opt/homebrew/opt/ruby/bin/`; use that `bundle` executable instead of the older macOS system Ruby. Open [the local preview](http://127.0.0.1:4000/leonroth/).
 
+### Digitized works development preview
+
+The digital archive is opt-in and is **not included in normal or production builds**:
+
+```sh
+BUNDLE_PATH=vendor/bundle bundle exec jekyll serve --config _config.yml,_config.works-preview.yml --destination _site_test
+```
+
+Open [the works index](http://127.0.0.1:4000/leonroth/works/) or [the David Nieto sample](http://127.0.0.1:4000/leonroth/works/david-nieto/). See [the content model, safety notes, and validation guide](_docs/digitized-works.md).
+
+Do not manually dispatch `pages.yml` for a preview: its deployment job also runs on `workflow_dispatch`. Keep the production workflow and its configuration unchanged.
+
 ## Edit the site
 
 - Each interior page is an ordinary Markdown file in the project root. Edit its text and links beneath the opening `---` configuration block.

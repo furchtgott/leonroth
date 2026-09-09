@@ -1,0 +1,25 @@
+---
+layout: works-index
+title: Digitized works
+permalink: /works/
+collection_label: Development preview
+parent_url: /resources/
+page_class: works-index
+sort_by: year
+sitemap: false
+---
+<p>Readable editions of Leon Roth’s works, alongside their original scans.</p>
+<p class="works-preview-note">Development preview: the sample below contains metadata only. Its transcription is forthcoming.</p>
+{% assign sort_key = page.sort_by | default: 'year' %}
+{% assign sorted_works = site.works | sort_natural: 'title' | sort: sort_key, 'last' %}
+<ol class="works-list" aria-label="Digitized works">
+  {% for work in sorted_works %}
+  <li>
+    <h2><a href="{{ work.url | relative_url }}"><bdi>{{ work.title | escape }}</bdi></a></h2>
+    <p class="works-list-metadata">{{ work.year | default: 'Undated' | escape }}{% if work.language and work.language != '' %} · {{ work.language | escape }}{% endif %}{% if work.digitization_status and work.digitization_status != '' %} · {{ work.digitization_status | replace: '_', ' ' | capitalize | escape }}{% endif %}</p>
+    {% if work.pdf and work.pdf != '' %}<a class="text-link" href="{{ work.pdf | relative_url }}">View original scan (PDF)</a>{% endif %}
+  </li>
+  {% else %}
+  <li>No digitized works are available yet.</li>
+  {% endfor %}
+</ol>
