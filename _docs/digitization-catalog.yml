@@ -25,9 +25,11 @@
   local_original: "Site Files/Note on the Relationship between Locke and Descartes 1937.pdf"
   scan_pages: 3
   printed_pages: "414–416"
-  status: candidate
+  status: scan_checked
   priority: 4
-  next_action: "English comparison candidate for a later batch. Three pages, ten numbered paragraphs, and inline citations, but no footnotes. The closing date is Jerusalem, May, 1935, consistent with the bibliography; do not copy the filename's 1937."
+  extraction_method: "Embedded text corrected against all three page images."
+  review_record: _docs/pilots/locke-descartes-review.md
+  next_action: "Review the complete draft, numbered paragraphs, citations, and partial-word emphasis. The closing date confirms 1935 rather than the filename's 1937."
 - id: yovel-spinoza
   title: "Yovel Spinoza"
   year: 1932
@@ -37,7 +39,7 @@
   local_original: "Site Files/yovel spinoza small.pdf"
   scan_pages: 2
   status: deferred_source_review
-  priority: 5
+  priority: 7
   next_action: "Dense multi-column newspaper scan with no text layer and ink obscuring words; inspect a clearer copy before selecting it for transcription. Exclude adjacent articles."
 - id: spinoza-recent-english-thought
   title: "Spinoza in Recent English Thought"
@@ -69,3 +71,32 @@
   extraction_method: "Manual image reading; no embedded text layer."
   review_record: _docs/pilots/freedom-government-introduction-review.md
   next_action: "Proficient Hebrew reader to review the complete introduction, spelling, punctuation, date, and normalization choices."
+- id: philosophical-classics-hebrew
+  title: "Philosophical Classics in Hebrew: Building a Language"
+  year: 1946
+  language: English
+  bibliography: /essays-english/
+  pdf: /_files/ugd/01b672_e9328b5ca35c47b3a0cd3a319fc6a753.pdf
+  local_original: "Site Files/Philosophical Classics in Hebrew.pdf"
+  scan_pages: 3
+  printed_pages: "298–300"
+  status: scan_checked
+  priority: 5
+  extraction_method: "Manual page-image reading; text layer has only database metadata and stamps."
+  review_record: _docs/pilots/philosophical-classics-hebrew-review.md
+  next_action: "Review the text, book titles, names, and column joins. Only the review from Building a Language to full consummation is included."
+- id: righteousness-israel
+  title: "צֶדֶק וּצְדָקָה בְּיִשְׂרָאֵל"
+  translated_title: "Justice and Charity in Israel"
+  year: 1944
+  language: Hebrew
+  bibliography: /essays-hebrew/
+  pdf: /_files/ugd/01b672_69d5a88681e343a893626e3ca98db097.pdf
+  local_original: "Site Files/Righteousness in Israel.pdf"
+  scan_pages: 2
+  printed_pages: "322–323"
+  status: scan_checked
+  priority: 6
+  extraction_method: "Visual transcription; existing Hebrew text layer reverses runs and mixes columns."
+  review_record: _docs/pilots/righteousness-israel-review.md
+  next_action: "Proficient Hebrew reader to review the pointed title, full text, source note, and normalization choices."

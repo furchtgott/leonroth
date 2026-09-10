@@ -4,6 +4,12 @@ Work: Leon Roth, “הקדמה” [Introduction], in H. Merhavya's *Freedom and 
 
 Current state: **scan_checked; published: false**. Codex manually transcribed the two printed pages and checked them visually on September 9, 2026. Review by a proficient Hebrew reader remains pending. This pilot has no human acceptance yet.
 
+## Presentation update requested by the owner
+
+On September 9, 2026 the owner requested removal of the editorial page numbers from the Markdown transcriptions. All page-marker includes were removed; source prose, source paragraph boundaries, footnotes, and citation page ranges are unchanged. The include and its unused CSS rule were also removed.
+
+Current Markdown body SHA-256: `0f9f811a554b69f3c3c850493c5a619018d4fd1af51ccab7da480583e4fb59f3` (UTF-8 body after front matter, leading blank lines removed). The earlier hash below identifies the version with markers. A comparison with revision `ecd2ed7a1e3ff11009861a711dfb44d17a1fc83e`, stripping only those markers and their surrounding presentation whitespace, confirms identical text. Earlier marker-specific checks below describe the previous preview, not a current requirement.
+
 ## Sources and reproduction
 
 | Source | Identifier |
@@ -13,7 +19,7 @@ Current state: **scan_checked; published: false**. Codex manually transcribed th
 | Retained public scan | `/_files/ugd/01b672_83e04f6517bb436e9804cbbe1d31e503.pdf` (1,391,434 bytes) |
 | Public scan SHA-256 | `383cfe9e660d65b6b92f6671ebd63d97df1221b5cf69784aebf2c276173fa630` |
 | Edition source | `_works/1945-freedom-government-introduction.md` |
-| Checked Markdown body SHA-256 | `3b9bdab6ec8d68ca8898165ec2fd148aed6d982fc3214c2dbedb6fda01461f9b` (UTF-8 body after front matter, leading blank lines removed) |
+| Earlier checked body SHA-256 (with markers) | `3b9bdab6ec8d68ca8898165ec2fd148aed6d982fc3214c2dbedb6fda01461f9b` (UTF-8 body after front matter, leading blank lines removed) |
 | Reader URL | `/works/freedom-government-introduction/` (preview only) |
 
 All three original/public PDF page pairs render pixel-identically at 180 dpi. PDF page 1 is the title page; Roth's introduction is complete on PDF pages 2–3. The title page is source evidence, not part of his prose. No source PDF was modified.

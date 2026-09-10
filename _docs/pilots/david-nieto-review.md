@@ -4,6 +4,12 @@ Work: Leon Roth, "David Nieto and the Orthodoxy of Spinozism," *Chronicon Spinoz
 
 Current state: **verified; published: false**. Codex compared the complete draft against the five printed pages on September 9, 2026. The project owner subsequently reported reviewing the text, this review record, and the editorial standard and accepted continued work. This records acceptance of the pilot, not authorization to publish it or a claim of independent scholarly certification.
 
+## Presentation update requested by the owner
+
+On September 9, 2026 the owner requested removal of the editorial page numbers from the Markdown transcriptions. All page-marker includes were removed; source prose, source paragraph boundaries, footnotes, and citation page ranges are unchanged. The include and its unused CSS rule were also removed.
+
+Current Markdown body SHA-256: `d5eecea2804292f7c3e28b3bf8d73b607f8a255860b5b4f97101fb464af80955` (UTF-8 body after front matter, leading blank lines removed). The earlier hash below identifies the version with markers. A comparison with revision `ecd2ed7a1e3ff11009861a711dfb44d17a1fc83e`, stripping only those markers and their surrounding presentation whitespace, confirms identical text. Earlier marker-specific checks below describe the previous preview, not a current requirement.
+
 ## Sources and reproduction
 
 | Source | Identifier |
@@ -13,7 +19,7 @@ Current state: **verified; published: false**. Codex compared the complete draft
 | Retained public scan | `/_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf` (258,541 bytes) |
 | Public scan SHA-256 | `672fe1fb5ecaac9b1c6a244ba82c7ce95211d564ab0fda25cbd9087202578385` |
 | Edition source | `_works/1921-david-nieto.md` |
-| Checked Markdown body SHA-256 | `9a87551768a20502fc3e5ce2552305f41737f6676c7521ac09bc93f59b63e366` (UTF-8 body after front matter, leading blank lines removed) |
+| Earlier checked body SHA-256 (with markers) | `9a87551768a20502fc3e5ce2552305f41737f6676c7521ac09bc93f59b63e366` (UTF-8 body after front matter, leading blank lines removed) |
 | Reader URL | `/works/david-nieto/` (preview only) |
 
 Both PDFs contain five pages; their rendered page images are pixel-identical at 250 dpi. The original contains 300 dpi monochrome page images and an imperfect text layer. `pdftotext -layout` produced 10,587 bytes of text; extraction was used only as a starting point. All five original pages were rendered at 250 dpi and read visually; Hebrew passages and the accented heading were also inspected in enlarged crops. No original PDF was modified.
@@ -70,6 +76,6 @@ Technical QA passed for the completed draft: normal builds preserve 18 HTML page
 | Editorial policy approved | Version 1 accepted for continued pilot work |
 | Publication approved | No |
 
-Approval evidence: the project owner wrote, “OK I reviewed the review, the david nieto piece, and the editorial standard. good job. keep going.” The revision above was the feature branch/PR head presented for that review. The body hash is unchanged by the subsequent approval metadata update.
+Approval evidence: the project owner wrote, “OK I reviewed the review, the david nieto piece, and the editorial standard. good job. keep going.” The revision above was the feature branch/PR head presented for that review. The body hash was unchanged by the approval metadata update. The later marker removal is the owner-requested presentation-only change recorded above; acceptance of the underlying text is retained.
 
 The user did not describe their comparison method or claim an independent line-by-line collation, Hebrew proficiency, or external verification of the volume's title page. None of those claims is inferred here. The source/date observations above remain part of the edition's provenance. `verified` records the owner's acceptance of this pilot under the workflow; `published: false` remains in force. A future substantive text change needs renewed review.

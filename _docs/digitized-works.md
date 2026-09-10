@@ -20,7 +20,7 @@ Merging this feature alone should not create or change a public URL or existing 
 
 ## Content model
 
-Each work is a Markdown document in `_works/`. The filename is for editorial organization; the explicit `permalink` is the stable reader-facing URL. Three unpublished pilots exist: David Nieto (1921), accepted by the project owner; Spinoza in Recent English Thought (1927), awaiting review of its text and seven notes; and the Hebrew introduction to Freedom and Government (1945), awaiting a proficient Hebrew reader. Each has a source/review record under `_docs/pilots/`. See [the plan](digitization-plan.md) for selection and next steps.
+Each work is a Markdown document in `_works/`. The filename is for editorial organization; the explicit `permalink` is the stable reader-facing URL. Six unpublished works exist: David Nieto (1921), accepted by the project owner; Spinoza in Recent English Thought (1927); Note on the Relationship between Locke and Descartes (1935); the Hebrew review Justice and Charity in Israel (1944); the Hebrew introduction to Freedom and Government (1945); and Philosophical Classics in Hebrew: Building a Language (1946). The latter five remain scan-checked drafts awaiting their own editorial review. Each has a source/review record under `_docs/pilots/`. See [the plan](digitization-plan.md) for selection and next steps.
 
 To add a work, copy the sample, choose a unique filename and permalink, and edit its front matter and Markdown body:
 
@@ -48,7 +48,7 @@ Replace the example PDF path with an existing file. Use `layout: work`, `title`,
 
 `year` is an integer when known; omit unknown years. Keep volume, issue, and page ranges as quoted strings. Optional `editors`, `publisher`, `place`, `original_title`, `translated_title`, `translator`, `notes`, and `source_type` are plain text. Use a YAML list for `topics`. Notes appear in a separate editorial section; the layout escapes metadata. Rich prose belongs in the Markdown body.
 
-Status values are `forthcoming`, `in_progress`, `scan_checked`, and `verified`. They describe editorial state; publication additionally requires an explicit `published: true`. Use `scan_checked` after a complete scan comparison and `verified` only after editorial acceptance, recorded with `reviewed_by`, `reviewed_on`, `reviewed_revision`, and `review_record`. State the actual review scope without inventing a comparison method or reviewer qualifications. David Nieto is now `verified`; both new pilots are `scan_checked`; all three keep `published: false`.
+Status values are `forthcoming`, `in_progress`, `scan_checked`, and `verified`. They describe editorial state; publication additionally requires an explicit `published: true`. Use `scan_checked` after a complete scan comparison and `verified` only after editorial acceptance, recorded with `reviewed_by`, `reviewed_on`, `reviewed_revision`, and `review_record`. State the actual review scope without inventing a comparison method or reviewer qualifications. David Nieto is `verified`; the other five are `scan_checked`; all six keep `published: false`.
 
 The layout reuses the existing site shell, navigation, footer, reading-page classes, serif typography, and color variables. The extra CSS only targets archive components, with a narrower reading measure, mobile sizing, logical list/quote spacing, and footnotes.
 
@@ -60,7 +60,7 @@ A sentence with a note.[^1]
 [^1]: The note, checked against the original scan.
 ```
 
-Page markers use `{% include work-page.html number=205 scan_page=1 %}`. When a source uses Hebrew page numerals, `{% include work-page.html number=5 label="ה" scan_page=2 %}` keeps the stable `page-5` anchor and PDF mapping while displaying ה. The optional label is escaped and isolated for direction. Omit it for ordinary decimal labels. Use decimal-only `pages: "5–6"` in the English citation and explain original Hebrew numbering in editorial notes; mixing both numbering systems in a single automatically directed metadata value can reverse the decimal range.
+Do not add editorial page numbers or page-break markers to the Markdown body. The owner requested continuous reading text. Keep the publication page range in `pages`, retain Roth’s own citations and numbered sections, and keep any scan-page mapping in the internal review record. The original scan remains linked at the top and bottom. The old page-marker include and CSS rule have been removed. Use decimal-only `pages: "5–6"` in the English citation; explain Hebrew source folios in review notes if useful.
 
 ## Hebrew and mixed text
 
@@ -113,7 +113,7 @@ python3 tools/check_site.py --site _site_test
 BUNDLE_PATH=vendor/bundle bundle exec jekyll serve --config _config.yml,_config.works-preview.yml --destination _site_test --host 127.0.0.1
 ```
 
-Visit `/leonroth/`, `/leonroth/essays-english/`, `/leonroth/essays-hebrew/`, `/leonroth/works/`, and `/leonroth/works/david-nieto/` on `http://127.0.0.1:4000`. Also visit `/leonroth/works/spinoza-recent-english-thought/` and `/leonroth/works/freedom-government-introduction/`. Follow each scan link. Check desktop and mobile widths, keyboard focus, the seven real English footnotes/backlinks, and the Hebrew text/date/page markers. Use a temporary Hebrew fixture for structural elements absent from the real introduction, such as lists and footnotes. Do not commit QA fixtures as archive content.
+Visit `/leonroth/`, `/leonroth/essays-english/`, `/leonroth/essays-hebrew/`, and `/leonroth/works/` on `http://127.0.0.1:4000`, then open all six reading pages from the index. Follow each scan link. Check desktop and mobile widths, keyboard focus, the seven English notes/backlinks, the Hebrew review's note/backlink, and Hebrew reading direction. Use temporary fixtures for structural elements absent from these works, such as Hebrew lists and block quotes. Do not commit QA fixtures as archive content.
 
 For a custom-domain-shaped build, create an override **outside the repository** containing `url: "https://www.leonroth.org"` and `baseurl: ""`. Append it to the comma-separated config list, build to a temporary destination, then run `tools/check_site.py --site /your/temp/output --baseurl ''`. This only builds files locally; it changes no hosting settings.
 
@@ -121,7 +121,7 @@ Normal builds must have no `works/` output, no `assets/css/works.css`, and no wo
 
 The existing Pages pull-request workflow validates the normal production build without deployment. A separate `works-check.yml` PR workflow now checks editorial metadata, publication boundaries, and both normal and opt-in preview builds. It has only `contents: read` permission and no deployment steps. No hosted preview or production deployment setting was added or changed.
 
-### Initial architecture validation performed on September 9, 2026
+### Initial architecture validation performed on September 9, 2026 (historical)
 
 - Normal builds: 18 HTML pages, all 17 original routes, 601 internal links, and 209 PDF URLs passed the existing checker.
 - Preview builds under both `/leonroth/` and a custom-domain-shaped empty base path: 20 HTML pages and 650 internal links passed, with all original routes and PDFs preserved. No Jekyll errors; only existing theme/dependency warnings.
@@ -131,9 +131,7 @@ The existing Pages pull-request workflow validates the normal production build w
 
 During this task, a separate change advanced remote `main` to `962dace83e44af07ce90095b520c1a1e191609f2` ("Repair embedded bibliography PDF links"), with its own successful production workflow run. That commit changes `MIGRATION.md`, the printable bibliography PDF, and `migration/bibliography-links.json`. Those concurrently edited working-tree files are deliberately excluded from this feature's commit. This task did not modify or push `main`, dispatch a workflow, or deploy. Its local `main` reference remains at the inspected starting commit. Reconcile with the current remote branch and rerun validation before a future merge.
 
-## Before merging or publishing
-
-### Second pilot batch validation, September 9, 2026
+### Second pilot batch validation, September 9, 2026 (before marker removal)
 
 - Normal output still contains 18 HTML pages, 601 checked local links, and all 209 PDF URLs. Compared with the previous pilot build, no output paths were added or removed and every byte matched except the generated feed timestamp.
 - Both base-path preview builds contain 22 HTML pages and pass 731 local-link checks, with all 17 original routes and 209 PDF URLs retained. The index contains three unpublished works in year order.
@@ -141,9 +139,17 @@ During this task, a separate change advanced remote `main` to `962dace83e44af07c
 - The English pilot has seven working notes/backlinks, with 15px note text. The Hebrew introduction uses real RTL text, preserved Hebrew source labels, and the correct two PDF page destinations. Both passed 390px and 320px overflow checks and desktop inspection. The range shown in the English citation stays LTR; the index displays the optional translated title.
 - Original/public PDF page images match at 180 dpi for both new pilots. Their hashes and page checks are recorded in the corresponding review records. The David Nieto Markdown body hash still matches the revision accepted by the user.
 
-### Outstanding review
+### Third batch and continuous reading validation, September 9, 2026
 
-- David Nieto and editorial standard version 1 have been accepted by the project owner. Review the two new pilots separately, including all seven English notes and the full Hebrew text; they remain scan-checked drafts.
+- Added three complete unpublished works: Locke and Descartes (1935), Justice and Charity in Israel (1944, Hebrew), and Philosophical Classics in Hebrew (1946, English). Their eight source pages were visually checked, and original/public render pairs were pixel-identical at 200 dpi. Each review record identifies article boundaries, source hashes, and editorial choices.
+- Removed inline editorial page markers from the three earlier works, the include, and its CSS rule. Comparing each earlier Markdown body after removing only marker syntax and its surrounding whitespace gives identical text. No source wording, footnotes, numbered paragraphs, or citation page ranges changed.
+- Normal output remains 18 HTML pages, all 17 original routes, 601 checked internal links, and 209 PDF URLs. All 253 output paths match the previous batch's normal build byte-for-byte except the generated feed timestamp.
+- Both `/leonroth/` and custom-domain-root previews pass with 25 HTML pages, 801 checked internal links, and all 209 PDF URLs. All six work pages are free of editorial page markers. Metadata validation and the publication-boundary fixture tests pass.
+- All three additions passed desktop inspection and 390px/320px overflow checks. The Hebrew review uses RTL text and has a working note and return link; its note text remains 15px. Locke's ten source paragraph numbers and partial-word emphasis render correctly. The index lists six unpublished works in year order.
+
+## Before merging or publishing
+
+- David Nieto and editorial standard version 1 have been accepted by the project owner, with the later instruction to remove editorial page numbers. The other five works need their own editorial acceptance, including both Hebrew texts and all source notes.
 - Review the English/mobile presentation and Hebrew reading direction on representative real text.
 - Keep unrelated concurrent PDF/migration edits out of this feature's commit.
 - Confirm the default build continues to omit the archive. Do not dispatch the Pages workflow for preview.

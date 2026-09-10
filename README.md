@@ -29,8 +29,13 @@ Open [the works index](http://127.0.0.1:4000/leonroth/works/) or one of the unpu
 - [David Nieto](http://127.0.0.1:4000/leonroth/works/david-nieto/) — accepted by the project owner.
 - [Spinoza in Recent English Thought](http://127.0.0.1:4000/leonroth/works/spinoza-recent-english-thought/) — seven footnotes; editorial review pending.
 - [Introduction to Freedom and Government](http://127.0.0.1:4000/leonroth/works/freedom-government-introduction/) — Hebrew; review by a proficient reader pending.
+- [Note on the Relationship between Locke and Descartes](http://127.0.0.1:4000/leonroth/works/locke-descartes/) — editorial review pending.
+- [Philosophical Classics in Hebrew: Building a Language](http://127.0.0.1:4000/leonroth/works/philosophical-classics-hebrew/) — editorial review pending.
+- [Justice and Charity in Israel](http://127.0.0.1:4000/leonroth/works/righteousness-israel/) — Hebrew; review by a proficient reader pending.
 
 See [the content model and safety notes](_docs/digitized-works.md), [the digitization plan](_docs/digitization-plan.md), and [the pilot review record](_docs/pilots/david-nieto-review.md).
+
+Reading pages use continuous text without editorial page markers. Publication page ranges, Roth’s own citations, and source notes are retained.
 
 Works default to `published: false`; this preview config explicitly includes them. Scan checking, editorial acceptance, and permission to publish are separate decisions. Before committing an edition, run:
 

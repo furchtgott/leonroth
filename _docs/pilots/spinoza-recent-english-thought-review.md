@@ -4,6 +4,12 @@ Work: Leon Roth, “Spinoza in Recent English Thought,” *Mind* 36, no. 142 (19
 
 Current state: **scan_checked; published: false**. Codex prepared the transcription and compared it with all six scan pages on September 9, 2026. Human editorial review remains pending.
 
+## Presentation update requested by the owner
+
+On September 9, 2026 the owner requested removal of the editorial page numbers from the Markdown transcriptions. All page-marker includes were removed; source prose, source paragraph boundaries, footnotes, and citation page ranges are unchanged. The include and its unused CSS rule were also removed.
+
+Current Markdown body SHA-256: `f6d77dce318c371fdbb05b68805dec78baeef2de9adddae8da1fe0928a021c76` (UTF-8 body after front matter, leading blank lines removed). The earlier hash below identifies the version with markers. A comparison with revision `ecd2ed7a1e3ff11009861a711dfb44d17a1fc83e`, stripping only those markers and their surrounding presentation whitespace, confirms identical text. Earlier marker-specific checks below describe the previous preview, not a current requirement.
+
 ## Sources and reproduction
 
 | Source | Identifier |
@@ -13,7 +19,7 @@ Current state: **scan_checked; published: false**. Codex prepared the transcript
 | Retained public scan | `/_files/ugd/01b672_e13163d3dffb4a108f6b88199f32cff7.pdf` (295,295 bytes) |
 | Public scan SHA-256 | `9f8321a8d73adad2a228e6cf2bd974ecd2adb91240ec5d4d9a9dd2129c404129` |
 | Edition source | `_works/1927-spinoza-recent-english-thought.md` |
-| Checked Markdown body SHA-256 | `79852810e7b60d1a39369ebba17550657c3c124be10f2a7839ad7f58a446c716` (UTF-8 body after front matter, leading blank lines removed) |
+| Earlier checked body SHA-256 (with markers) | `79852810e7b60d1a39369ebba17550657c3c124be10f2a7839ad7f58a446c716` (UTF-8 body after front matter, leading blank lines removed) |
 | Reader URL | `/works/spinoza-recent-english-thought/` (preview only) |
 
 The original and public PDFs render pixel-identically on all six pages at 180 dpi. No PDF was changed. Poppler's embedded-text extraction yielded 17,867 characters, including running heads and repeated download stamps. It supplied a draft, not authoritative text. All page images were read; enlarged crops clarified the mark over “interpretation” on p. 206 and the last footnote on p. 210.

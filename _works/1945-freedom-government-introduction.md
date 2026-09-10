@@ -20,11 +20,9 @@ review_record: "_docs/pilots/freedom-government-introduction-review.md"
 published: false
 description: "An unpublished Hebrew transcription pilot of Leon Roth's introduction to H. Merhavya's Freedom and Government, with the original scan."
 review_notice: "Working Hebrew transcription: read and checked from the two printed pages by Codex. Review by a proficient Hebrew reader is pending; this edition is not approved for publication."
-notes: "The introduction occupies PDF pages 2–3, numbered ה–ו in print; PDF page 1 is the book's title page. Printed lines are reflowed, line-end word divisions joined, and quotation/abbreviation glyphs normalized. Historical Hebrew spelling, the printed date, and the signature are retained. Page markers display the original Hebrew page labels. The English publication metadata follows the existing bibliography; the scan identifies Merhavya as compiler/editor."
+notes: "The introduction occupies PDF pages 2–3, numbered ה–ו in print; PDF page 1 is the book's title page. Printed lines are reflowed, line-end word divisions joined, and quotation/abbreviation glyphs normalized. Historical Hebrew spelling, the printed date, and the signature are retained. The English publication metadata follows the existing bibliography; the scan identifies Merhavya as compiler/editor."
 sitemap: false
 ---
-
-{% include work-page.html number=5 label="ה" scan_page=2 %}
 
 ספרו של מר מרחביה מעיד על עצמו ואינו זקוק להמלצה. בו ימצא הקורא אוסף תעודות המפליא בהיקפו על ענין שאין אפשרות להפריז בחשיבותו. מן “המגילה הגדולה של החירויות” עד “הצ׳ארטר של האומות המאוחדות” אין פנה או נקודה של ארגון החברה הנאור שאין ספר זה נוגע בה. המצוין שבספר הוא שאינו שרוי באוירה של ההשערה והדמיון. הוא מושרש בקרקע של קורות העמים וכולו תקנות והצהרות רשמיות.
 
@@ -35,8 +33,6 @@ sitemap: false
 לבסוף רוח זו היא שהכריעה; ואם ישאל בזכותו של מה, יש רק תשובה אחת, והיא: בזכותו של האידיאל. וכאן, אם נעיין היטב בספר שלפנינו, נעזר על ידו במיוחד. האידיאל הוא היוצר את כל החוקים והתקנות מאחר שהוא הוא המפעם בהכרות, שמהן נבעו ובהכרה שעל ידיה נוצרו. אין לך חוק מן החוקים או תקנה מן התקנות שלא היו פעם רעיונו (או שגעונו) של יחיד.
 
 ליחיד חבר, וגם לחברו חבר, וכך לאט לאט הולכת ונוצרת דעה חדשה ולבסוף חוקים חדשים. מכאן נובע הצורך, שהוא עיקר העיקרים בדימוקראטיה, והוא: השמירה על דעת המיעוט. כל רעיון צריך להלחם בעד עצמו. יש לדרוש איפוא שתנתן לו הרשות לכך.
-
-{% include work-page.html number=6 label="ו" scan_page=3 %}
 
 דוגמא בולטת מכוחו של הרעיון מצויה בהכרזות שמביא ספרו על זכויות האדם. מי יכול לקרוא בהן מבלי להכיר שבהן התנאים של חיי החופש הממשיים. ואולם הכרזות אלו הן פרי התפתחות עיונית ממושכת, שהתבשלה בפילוסוף ג׳ון לוק. נוהגים לראות את הפילוסופיה כמנותקת מן החיים. אולם, להיפך, היא העיון בטיב החיים שבלעדיו אין הבנה לעומק צרכיהם. וכך אפשר מאד שצדק אביהן של כל המדינות האידיאליות כשאמר: “עד שיהיו המלכים לפילוסופים, או הפילוסופים למלכים, לא יחדלו הרעות מבני־האדם”.
 
