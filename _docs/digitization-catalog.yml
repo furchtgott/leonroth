@@ -599,3 +599,188 @@
   status: "deferred_source_review"
   priority: 44
   next_action: "Binding obscures line beginnings in the December 7, 1951 Desiderata article. Obtain a flatter scan before transcription."
+- id: "biblical-prophecy"
+  title: "The Significance of Biblical Prophecy for Our Time"
+  year: 1955
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_3404d6a14ac54ba6bacf961e4122fd1c.pdf"
+  local_original: "Site Files/biblical prophecy .pdf"
+  scan_pages: 5
+  printed_pages: "5–11"
+  status: "scan_checked"
+  priority: 45
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/biblical-prophecy-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "great-jewish-books"
+  title: "Great Jewish Books: Old and New"
+  year: 1972
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_5015a351fdf24336a71f137ec1438693.pdf"
+  local_original: "Site Files/Leon Roth - Great Jewish Books - Old and New.PDF"
+  scan_pages: 9
+  printed_pages: "25–38"
+  status: "scan_checked"
+  priority: 46
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/great-jewish-books-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "west-london-address"
+  title: "Address Given at the West London Synagogue on the Occasion of the Inauguration of the Jewish Theological College"
+  year: 2006
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_9399d2e8387348cbbb3e4dddabb31831.pdf"
+  local_original: "Site Files/Adress given at the West London Synagogue 1956.pdf"
+  scan_pages: 11
+  printed_pages: "16–26"
+  status: "scan_checked"
+  priority: 47
+  extraction_method: "The born-digital text was extracted with pdftohtml XML to preserve printed italic runs, then checked against all eleven rendered pages. Page headers and the two source editorial notes were separated from the address."
+  review_record: "_docs/pilots/west-london-address-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "place-religion"
+  title: "מקום הדת בבנין הארץ"
+  year: 1942
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_db3623b429484e11be1c8c80d44e6fdc.pdf"
+  local_original: "Site Files/gilyonot0000.pdf"
+  scan_pages: 3
+  printed_pages: "74–79"
+  status: "scan_checked"
+  priority: 48
+  extraction_method: "The embedded text was absent or unusable. Codex transcribed the Hebrew directly from all article-page images, checking enlarged columns and crops. No external OCR service was used."
+  review_record: "_docs/pilots/place-religion-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "The Place of Religion in the Upbuilding of the Land of Israel"
+- id: "jerusalem-letter"
+  title: "Jerusalem Letter"
+  year: 1932
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_e371d4814047467c9edce40eda93cd6c.pdf"
+  local_original: "Site Files/Jerusalem Letter.pdf"
+  scan_pages: 6
+  printed_pages: "126–131"
+  status: "scan_checked"
+  priority: 49
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/jerusalem-letter-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "diffusion-culture"
+  title: "על הפצת התרבות"
+  year: 1943
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_f79bc44e7bf744ce81b28d2a7a7e6582.pdf"
+  local_original: "Site Files/hafatzat hatarbut hagalgal.pdf"
+  scan_pages: 3
+  printed_pages: "3–4"
+  status: "scan_checked"
+  priority: 50
+  extraction_method: "The embedded text was absent or unusable. Codex transcribed the Hebrew directly from all article-page images, checking enlarged columns and crops. No external OCR service was used."
+  review_record: "_docs/pilots/diffusion-culture-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "The Diffusion of Culture"
+- id: "philosophy-university"
+  title: "Philosophy at the University and the Jewish Mind"
+  year: 1952
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_fee98a86a28b4b74a53a2c6f9ba373cd.pdf"
+  local_original: "Site Files/Philosophy at the University and the Jewish Mind.pdf"
+  scan_pages: 8
+  printed_pages: "65–72"
+  status: "scan_checked"
+  priority: 51
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/philosophy-university-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "discourse-method"
+  title: "The Discourse on Method (1637–1937)"
+  year: 1937
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_c4afdc5840da4ec484d32fa2a7323d17.pdf"
+  local_original: "Site Files/Discourse on Method Mind-1937-ROTH-32-43.pdf"
+  scan_pages: 12
+  printed_pages: "32–43"
+  status: "scan_checked"
+  priority: 52
+  extraction_method: "Existing PDF text was corrected against all twelve source-page images. Footnotes were separately read and keyed, with enlarged checks of French accents, Latin, dates, volume numbers and line references."
+  review_record: "_docs/pilots/discourse-method-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "education-religion"
+  title: "הַחִנּוּךְ וְהַדָּת"
+  year: 1944
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_64919309455648d18dda0b91e12ca447.pdf"
+  local_original: "Site Files/hinukh v'hadat.pdf"
+  scan_pages: 5
+  printed_pages: "344–348"
+  status: "scan_checked"
+  priority: 53
+  extraction_method: "The embedded text was absent or unusable. Codex transcribed the Hebrew directly from all article-page images, checking enlarged columns and crops. No external OCR service was used."
+  review_record: "_docs/pilots/education-religion-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "Education and Religion"
+- id: "albert-camus"
+  title: "A Contemporary Moralist: Albert Camus"
+  year: 1955
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_83d48934a0414621a0495d36a4bb8142.pdf"
+  local_original: "Site Files/Camus_Philosophy30_1955.pdf"
+  scan_pages: 13
+  printed_pages: "291–303"
+  status: "scan_checked"
+  priority: 54
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/albert-camus-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "cartesian-studies"
+  title: "Cartesian Studies"
+  year: 1954
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_790e6760fd9244829442500199ba3e29.pdf"
+  local_original: "Site Files/Cartesian Studies.pdf"
+  scan_pages: 10
+  printed_pages: "466–475"
+  status: "deferred_source_review"
+  priority: 55
+  extraction_method: "Source images inspected; no edition created."
+  open_issues: "The inner binding clips text on the opening printed page 466. Obtain a flatter, clearer scan before transcription."
+  next_action: "The inner binding clips text on the opening printed page 466. Obtain a flatter, clearer scan before transcription."
+- id: "national-discipline"
+  title: "משמעת לאומית וחופש הפרט"
+  year: 1944
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_8bd014211afe48a296b16f2a8ea90fb2.pdf"
+  local_original: "Site Files/Mishmaat Leumit.pdf"
+  scan_pages: 2
+  printed_pages: "84–87"
+  status: "deferred_source_review"
+  priority: 56
+  extraction_method: "Source images inspected; no edition created."
+  open_issues: "Binding loss obscures line ends on printed pages 85 and 87. Obtain a complete legible scan before transcription."
+  next_action: "Binding loss obscures line ends on printed pages 85 and 87. Obtain a complete legible scan before transcription."
+- id: "descartes-huygens"
+  title: "The Descartes-Huygens Correspondence"
+  year: 1937
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_123d93d61a884d989b24fe3efb71c161.pdf"
+  local_original: "Site Files/Descartes Huygens.pdf"
+  scan_pages: 8
+  printed_pages: "101–108"
+  status: "deferred_source_review"
+  priority: 57
+  extraction_method: "Source images inspected; no edition created."
+  open_issues: "The eight-page PDF includes a cover and printed pages 101–104, 106–108; printed page 105 is absent. Obtain the missing page before transcription."
+  next_action: "The eight-page PDF includes a cover and printed pages 101–104, 106–108; printed page 105 is absent. Obtain the missing page before transcription."
