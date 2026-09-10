@@ -13,7 +13,7 @@ Current state: **scan_checked; published: false**. Codex prepared and visually c
 | Retained public PDF | `/_files/ugd/01b672_69d5a88681e343a893626e3ca98db097.pdf` (213,590 bytes) |
 | Public SHA-256 | `78fcb5616ed6ed032a526e14fc4fa7752374ac749416dca455042e67ddafa02b` |
 | Edition | `_works/1944-righteousness-israel.md` |
-| Markdown body SHA-256 | `cab1d6e5098dc04b6d51e73d582b0d9e1a05444e19ecc05b69ea61d76fbbf756` (UTF-8 body after front matter, leading blank lines removed) |
+| Markdown body SHA-256 | `73d40184cf8611a1de26c232d01a4b0a2b8d92cac0a03448a3537f2fe94d9d7f` (UTF-8 body after front matter, leading blank lines removed) |
 | Preview route | `/works/righteousness-israel/` |
 
 The original and public PDF page images are pixel-identical at 200 dpi. No PDF was modified. The embedded text layer reverses Hebrew runs and interleaves adjacent columns. It was inspected but not imported as reliable prose. Codex read both 200 dpi page images and enlarged title/column crops, transcribing only Roth’s review in right-to-left column order.
@@ -49,3 +49,7 @@ The six-work preview passes metadata and publication-boundary tests and checks 2
 | Publication approved | No |
 
 Record the reviewer, date, and exact content commit after acceptance. Keep `published: false` until a separate release decision. Approval of the editorial standard or another work does not approve this transcription.
+
+## Hebrew quotation typography amendment (September 9, 2026)
+
+Replaced the English opening/closing curly double quotes in Hebrew prose with symmetric straight quotes. Markdown uses `&quot;` to prevent Kramdown from automatically converting them back to English curly quotes. Wording, quotation boundaries, and Hebrew geresh/gershayim abbreviation marks are unchanged. This is a presentation correction; human acceptance is still pending.

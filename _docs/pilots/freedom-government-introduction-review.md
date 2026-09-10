@@ -8,7 +8,7 @@ Current state: **scan_checked; published: false**. Codex manually transcribed th
 
 On September 9, 2026 the owner requested removal of the editorial page numbers from the Markdown transcriptions. All page-marker includes were removed; source prose, source paragraph boundaries, footnotes, and citation page ranges are unchanged. The include and its unused CSS rule were also removed.
 
-Current Markdown body SHA-256: `0f9f811a554b69f3c3c850493c5a619018d4fd1af51ccab7da480583e4fb59f3` (UTF-8 body after front matter, leading blank lines removed). The earlier hash below identifies the version with markers. A comparison with revision `ecd2ed7a1e3ff11009861a711dfb44d17a1fc83e`, stripping only those markers and their surrounding presentation whitespace, confirms identical text. Earlier marker-specific checks below describe the previous preview, not a current requirement.
+Current Markdown body SHA-256: `bd379fec7f60e90be99c71a072ea561e0762c6659c12e660cdea4db21309d1a5` (UTF-8 body after front matter, leading blank lines removed). The earlier hash below identifies the version with markers. At the marker-removal stage, a comparison with revision `ecd2ed7a1e3ff11009861a711dfb44d17a1fc83e`, stripping only those markers and their surrounding presentation whitespace, confirmed identical text. The later quotation amendment below changes only quote typography. Earlier marker-specific checks below describe the previous preview, not a current requirement.
 
 ## Sources and reproduction
 
@@ -63,3 +63,7 @@ Technical validation: the preview passes route/link/PDF checks at both `/leonrot
 | Publication approved | No |
 
 After review, record the reviewer, date, and exact content commit before moving to `verified`. Keep `published: false` until a separate release decision. The new pilot does not inherit the owner's approval of David Nieto.
+
+## Hebrew quotation typography amendment (September 9, 2026)
+
+Replaced the English opening/closing curly double quotes in Hebrew prose with symmetric straight quotes. Markdown uses `&quot;` to prevent Kramdown from automatically converting them back to English curly quotes. Wording, quotation boundaries, and Hebrew geresh/gershayim abbreviation marks are unchanged. This is a presentation correction; human acceptance is still pending.

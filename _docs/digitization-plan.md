@@ -4,7 +4,7 @@ Editorial standard, version 1 — accepted by the project owner on September 9, 
 
 ## Scope and first milestone
 
-Create faithful, readable HTML editions while preserving the scans, bibliography citations, and public PDF addresses. The project owner has reviewed and accepted the David Nieto pilot, its review record, and this editorial standard. The archive now contains sixteen complete transcriptions: David Nieto is accepted, and fifteen works await their own editorial review. The owner requested ten more works after the six-work pilot stage; that batch is recorded in [the ten-work review guide](batches/2026-09-09-ten-works.md). All sixteen remain unpublished and reading pages omit inline editorial page markers.
+Create faithful, readable HTML editions while preserving the scans, bibliography citations, and public PDF addresses. The project owner has reviewed and accepted the David Nieto pilot, its review record, and this editorial standard. The archive now contains thirty-six transcriptions (two unreadable words are explicitly marked in Boloney): David Nieto is accepted, and thirty-five works await their own editorial review. The latest owner-requested batch adds twenty works and fixes Hebrew quotation typography; see [the twenty-work review guide](batches/2026-09-09-twenty-works.md). All thirty-six remain unpublished and reading pages omit inline editorial page markers.
 
 The initial bibliography inventory has 76 top-level English entries and 41 Hebrew entries. Of these, 67 English and 31 Hebrew entries already have local document links; the other 19 need source matching before assuming a scan is missing. These are bibliography-entry counts, not unique-work counts: reviews, multipart essays, and editions need reconciliation. The site's 209 preserved PDF URLs also include books and other resources, so that number is not the transcription backlog.
 
@@ -19,11 +19,11 @@ The initial bibliography inventory has 76 top-level English entries and 41 Hebre
 
 ## Work inventory and prioritization
 
-Maintain one record per work in `_docs/digitization-catalog.yml`. The seed catalog currently records sixteen transcribed works and three deferred candidates. Expand it by matching the existing bibliographies and `migration/assets.json`; do not rewrite the bibliographies during inventory work. Catalog-only states such as `candidate` or `deferred_source_review` do not create pages and are separate from the four work front-matter statuses.
+Maintain one record per work in `_docs/digitization-catalog.yml`. The seed catalog currently records thirty-six transcribed works and eight deferred candidates. Expand it by matching the existing bibliographies and `migration/assets.json`; do not rewrite the bibliographies during inventory work. Catalog-only states such as `candidate` or `deferred_source_review` do not create pages and are separate from the four work front-matter statuses.
 
 For each record retain a stable ID, title, language, bibliographic year, bibliography route, current PDF path(s), local original filename where available, scan page count, printed page range, extraction method, editorial status, reviewer, open issues, and priority rationale. Record uncertainty instead of inferring missing dates or page ranges from filenames. Separate multiple editions; group genuinely multipart essays under one work with ordered source parts.
 
-Prioritize short, complete, legible, important works for which a reviewer is available. Ordinarily process batches of three to five works; the owner explicitly requested ten in the latest batch. Keep long books for a later phase, once chapter navigation and the review process have proved themselves on essays. Do not produce large queues of unreviewed OCR.
+Prioritize short, complete, legible, important works for which a reviewer is available. Ordinarily process batches of three to five works; the owner explicitly requested twenty in the latest batch. Keep long books for a later phase, once chapter navigation and the review process have proved themselves on essays. Do not produce large queues of unreviewed OCR.
 
 ## Editorial standard
 
@@ -65,7 +65,7 @@ The project owner accepted these policy choices after reviewing the David Nieto 
 | `scan_checked` | Complete draft checked against the scan; identify who or what checked it | No |
 | `verified` | Named editorial reviewer has approved the text and recorded the reviewed revision | Only with an explicit `published: true` |
 
-For each pilot create `_docs/pilots/<work-id>-review.md`: source hashes, extraction method, checks by page, corrections/normalizations, outstanding questions, and a human review section. An AI scan check must be attributed to the AI; it does not constitute an independent human review. David Nieto now has `verified` status following the owner's acceptance, with the scope of that review recorded precisely. The other fifteen works remain `scan_checked`. All remain unpublished. Removing editorial page markers is an explicitly requested presentation change; it does not change Roth’s words or reset the acceptance of David Nieto.
+For each pilot create `_docs/pilots/<work-id>-review.md`: source hashes, extraction method, checks by page, corrections/normalizations, outstanding questions, and a human review section. An AI scan check must be attributed to the AI; it does not constitute an independent human review. David Nieto now has `verified` status following the owner's acceptance, with the scope of that review recorded precisely. The other thirty-five works remain `scan_checked`. All remain unpublished. Removing editorial page markers is an explicitly requested presentation change; it does not change Roth’s words or reset the acceptance of David Nieto.
 
 For a verified work, front matter must also contain `reviewed_by`, `reviewed_on` (quoted ISO date), `reviewed_revision` (the full content commit SHA), and `review_record` (a repository-relative path to the review record). The reviewer approves the transcription at that revision; the subsequent metadata-only approval commit records it. Use `translator` separately from `author` where relevant.
 
@@ -107,3 +107,7 @@ The publication test uses temporary fixtures outside `_works/`. It verifies omit
 Choose a small set of verified editions. Register the collection in production; promote the index and stylesheet out of `_preview/`; remove preview notices and noindex only for eligible pages; enable sitemap entries for those pages. Keep `unpublished: false`, retain the per-work default, and incorporate the metadata/publication checks into the release build.
 
 Update only the selected bibliography entries: link the title to the approved HTML edition and add a PDF link beside it. Everything else keeps its existing PDF or unlinked citation. Inspect all changed links and the normal production build before merging. Keep a record of the release commit; rollback by reverting the release change, which leaves the existing PDFs and bibliography routes intact. DNS/domain changes are unnecessary.
+
+### Hebrew quotation typography (September 9, 2026)
+
+Use symmetric straight double quotation marks in Hebrew prose; write `&quot;` in Markdown so Kramdown does not convert them to English curly quotes. The visible result is an ordinary quotation mark on each side, in logical Hebrew reading order. Retain geresh (׳) and gershayim (״) for Hebrew abbreviations, and retain English quotation conventions within explicitly English passages. Do not reverse strings or introduce invisible direction overrides. See [W3C Hebrew Layout Requirements, quotations](https://www.w3.org/International/hlreq/#quotations).
