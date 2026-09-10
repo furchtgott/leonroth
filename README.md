@@ -33,6 +33,8 @@ Open [the works index](http://127.0.0.1:4000/leonroth/works/) or one of the unpu
 - [Philosophical Classics in Hebrew: Building a Language](http://127.0.0.1:4000/leonroth/works/philosophical-classics-hebrew/) — editorial review pending.
 - [Justice and Charity in Israel](http://127.0.0.1:4000/leonroth/works/righteousness-israel/) — Hebrew; review by a proficient reader pending.
 
+The archive now contains sixteen unpublished works. The [latest ten-work review guide](_docs/batches/2026-09-09-ten-works.md) links each new reading page and source-check record.
+
 See [the content model and safety notes](_docs/digitized-works.md), [the digitization plan](_docs/digitization-plan.md), and [the pilot review record](_docs/pilots/david-nieto-review.md).
 
 Reading pages use continuous text without editorial page markers. Publication page ranges, Roth’s own citations, and source notes are retained.

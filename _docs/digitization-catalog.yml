@@ -39,7 +39,7 @@
   local_original: "Site Files/yovel spinoza small.pdf"
   scan_pages: 2
   status: deferred_source_review
-  priority: 7
+  priority: 17
   next_action: "Dense multi-column newspaper scan with no text layer and ink obscuring words; inspect a clearer copy before selecting it for transcription. Exclude adjacent articles."
 - id: spinoza-recent-english-thought
   title: "Spinoza in Recent English Thought"
@@ -100,3 +100,166 @@
   extraction_method: "Visual transcription; existing Hebrew text layer reverses runs and mixes columns."
   review_record: _docs/pilots/righteousness-israel-review.md
   next_action: "Proficient Hebrew reader to review the pointed title, full text, source note, and normalization choices."
+- id: "miscellanies"
+  title: "Miscellanies"
+  year: 1923
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_45c5276f344544e8b5b4020b2a3dc7c1.pdf"
+  local_original: "Site Files/Miscellanies Spinoza.pdf"
+  scan_pages: 2
+  printed_pages: "347–348"
+  status: "scan_checked"
+  priority: 7
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/miscellanies-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "bergmann-kant-review"
+  title: "Review of The Philosophy of Immanuel Kant"
+  year: 1927
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_22652ac9aeda4b229afde3ce42ff1ef4.pdf"
+  local_original: "Site Files/Hugo Bergmann Review.pdf"
+  scan_pages: 1
+  printed_pages: "384"
+  status: "scan_checked"
+  priority: 8
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/bergmann-kant-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "aquinas-opuscula-review"
+  title: "Review of S. Thomae Aquinatis Opuscula Omnia"
+  year: 1928
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_c6d5f28850af4bc58a648960ccb9d6d4.pdf"
+  local_original: "Site Files/Review of Aquinas Mind-1928-ROTH-120-a-120.pdf"
+  scan_pages: 1
+  printed_pages: "120"
+  status: "scan_checked"
+  priority: 9
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/aquinas-opuscula-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "hampshire-spinoza-review"
+  title: "Review of Spinoza by Stuart Hampshire"
+  year: 1956
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_3932d9ef01a246fcadd3fab0dd5c997b.pdf"
+  local_original: "Site Files/Review of Spinoza Mind-1956-ROTH-410-1.pdf"
+  scan_pages: 2
+  printed_pages: "410–411"
+  status: "scan_checked"
+  priority: 10
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/hampshire-spinoza-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "pain-other-problems-review"
+  title: "Review of Pain and Other Problems"
+  year: 1955
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_a802b29212dd41b98f341e12e21134e1.pdf"
+  local_original: "Site Files/review of Wordsworth.pdf"
+  scan_pages: 2
+  printed_pages: "382–383"
+  status: "scan_checked"
+  priority: 11
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/pain-other-problems-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "martin-buber-review"
+  title: "Review of Martin Buber: Jewish Existentialist"
+  year: 1961
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_23e68f268f3a43118a59d3d48f8ac88f.pdf"
+  local_original: "Site Files/Review of Diamond on Buber J Semitic Studies-1961-ROTH-114-a-114.pdf"
+  scan_pages: 1
+  printed_pages: "114"
+  status: "scan_checked"
+  priority: 12
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/martin-buber-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "new-horizons-old-testament-review"
+  title: "Review of New Horizons in Old Testament Literature"
+  year: 1961
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_aee0f77ff2964eb9aeda6c66cd75e1ec.pdf"
+  local_original: "Site Files/Review of Cyrus Gordon.pdf"
+  scan_pages: 2
+  printed_pages: "293–294"
+  status: "scan_checked"
+  priority: 13
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/new-horizons-old-testament-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "exclusiveness-tolerance-review"
+  title: "Review of Exclusiveness and Tolerance"
+  year: 1963
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_77096e1a335546efbcc11d80306d2dea.pdf"
+  local_original: "Site Files/Review of Jacob Katz.pdf"
+  scan_pages: 2
+  printed_pages: "137–138"
+  status: "scan_checked"
+  priority: 14
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/exclusiveness-tolerance-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "political-concepts-introduction"
+  title: "מבוא"
+  year: 1950
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_7a361355f04a4f3ea14be8d3740952a9.pdf"
+  local_original: "Site Files/ben sasson.pdf"
+  scan_pages: 5
+  printed_pages: "5–6"
+  status: "scan_checked"
+  priority: 15
+  extraction_method: "Visual transcription from page images; Hebrew text layer unusable."
+  review_record: "_docs/pilots/political-concepts-introduction-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "Introduction to Dictionary of Political Concepts"
+- id: "man-destiny-religions-review"
+  title: "Review of Man and His Destiny in the Great Religions"
+  year: 1963
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_65ad88669cb64f4ca797b5a1615bc5a0.pdf"
+  local_original: "Site Files/Review of Brandon.pdf"
+  scan_pages: 7
+  printed_pages: "271–277"
+  status: "scan_checked"
+  priority: 16
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/man-destiny-religions-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "universality-education"
+  title: "A Plea for Universality in Education"
+  year: 1948
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_d259e0ad83e148989dab42e118994a21.pdf"
+  local_original: "Site Files/universality in education.pdf"
+  scan_pages: 2
+  status: "deferred_source_review"
+  priority: 18
+  next_action: "Text disappears into the binding in the right-hand column of printed page 10; secure a flatter or clearer scan before transcribing."
+- id: "magnes-appreciation"
+  title: "Judah Leon Magnes: An Appreciation"
+  year: 1951
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_b3fcfc4550b2419498510d79699192d6.pdf"
+  local_original: "Site Files/Magnes0000.pdf"
+  scan_pages: 3
+  status: "deferred_source_review"
+  priority: 19
+  next_action: "Blot and crease obscure words across printed page 20; seek a clearer copy before transcribing. The continuation runs on printed page 19 in this reverse-paginated issue."
