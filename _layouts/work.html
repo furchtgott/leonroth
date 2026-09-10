@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% assign language = page.language | default: 'English' | downcase %}
+{% assign work_lang = page.lang | default: 'en' %}
+{% assign work_direction = 'ltr' %}
+{% assign bibliography_url = '/essays-english/' %}
+{% assign bibliography_label = 'English Essays' %}
+{% if language == 'hebrew' or language == 'he' or language == 'עברית' %}
+  {% assign work_lang = 'he' %}
+  {% assign work_direction = 'rtl' %}
+  {% assign bibliography_url = '/essays-hebrew/' %}
+  {% assign bibliography_label = 'Hebrew Essays' %}
+{% endif %}
+{% capture publication_citation %}{% include work-citation.html work=page %}{% endcapture %}
+<main id="main" class="reading-page work-page" lang="{{ work_lang | escape }}" dir="{{ work_direction }}">
+  <header class="reading-header">
+    <p class="eyebrow" lang="en" dir="ltr"><a href="{{ '/works/' | relative_url }}">Digitized works</a> · Development preview</p>
+    <h1 id="page-title">{{ page.title | escape }}</h1>
+    <p class="work-author"><bdi>{{ page.author | default: 'Leon Roth' | escape }}</bdi></p>
+    {% if publication_citation != '' %}<p class="work-publication" lang="en" dir="ltr">{{ publication_citation }}</p>{% endif %}
+    <dl class="work-metadata" lang="en" dir="ltr">
+      {% assign metadata_fields = 'language,editors,publisher,place,original_title,translated_title,translator,source_type' | split: ',' %}
+      {% for field in metadata_fields %}
+        {% assign value = page[field] | append: '' %}
+        {% if value != '' %}<div><dt>{{ field | replace: '_', ' ' | capitalize }}</dt><dd><bdi>{{ value | escape }}</bdi></dd></div>{% endif %}
+      {% endfor %}
+      {% if page.topics and page.topics.size > 0 %}<div><dt>Topics</dt><dd><bdi>{{ page.topics | join: ', ' | escape }}</bdi></dd></div>{% endif %}
+      {% if page.digitization_status and page.digitization_status != '' %}<div><dt>Transcription status</dt><dd>{{ page.digitization_status | replace: '_', ' ' | capitalize | escape }}</dd></div>{% endif %}
+    </dl>
+    {% if page.review_notice and page.review_notice != '' %}<p class="work-review-notice" lang="en" dir="ltr">{{ page.review_notice | escape }}</p>{% endif %}
+    {% if page.pdf and page.pdf != '' %}<p class="work-scan" lang="en" dir="ltr"><a class="work-pdf-link" href="{{ page.pdf | relative_url }}">View original scan (PDF)</a></p>{% endif %}
+  </header>
+  <article class="reading-content work-transcription" aria-labelledby="page-title">{{ content }}</article>
+  <footer class="work-footer" lang="en" dir="ltr">
+    {% if page.notes and page.notes != '' %}<aside class="work-notes"><h2>Editorial notes</h2><p><bdi>{{ page.notes | escape }}</bdi></p></aside>{% endif %}
+    <h2>Original publication</h2>
+    <p><bdi>{{ page.author | default: 'Leon Roth' | escape }}</bdi>. “<bdi>{{ page.title | escape }}</bdi>.”{% if publication_citation != '' %} {{ publication_citation }}.{% endif %}</p>
+    <nav class="work-links" aria-label="Work resources">
+      {% if page.pdf and page.pdf != '' %}<a href="{{ page.pdf | relative_url }}">View original scan (PDF)</a>{% endif %}
+      <a href="{{ bibliography_url | relative_url }}">Back to {{ bibliography_label }}</a>
+      <a href="{{ '/works/' | relative_url }}">All digitized works</a>
+    </nav>
+  </footer>
+</main>

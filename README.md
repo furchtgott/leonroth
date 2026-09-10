@@ -16,6 +16,40 @@ bundle exec jekyll serve
 
 On this Mac, the newly installed Ruby is available at `/opt/homebrew/opt/ruby/bin/`; use that `bundle` executable instead of the older macOS system Ruby. Open [the local preview](http://127.0.0.1:4000/leonroth/).
 
+### Digitized works development preview
+
+The digital archive is opt-in and is **not included in normal or production builds**:
+
+```sh
+BUNDLE_PATH=vendor/bundle bundle exec jekyll serve --config _config.yml,_config.works-preview.yml --destination _site_test
+```
+
+Open [the works index](http://127.0.0.1:4000/leonroth/works/) or one of the unpublished pilots:
+
+- [David Nieto](http://127.0.0.1:4000/leonroth/works/david-nieto/) — accepted by the project owner.
+- [Spinoza in Recent English Thought](http://127.0.0.1:4000/leonroth/works/spinoza-recent-english-thought/) — seven footnotes; editorial review pending.
+- [Introduction to Freedom and Government](http://127.0.0.1:4000/leonroth/works/freedom-government-introduction/) — Hebrew; review by a proficient reader pending.
+- [Note on the Relationship between Locke and Descartes](http://127.0.0.1:4000/leonroth/works/locke-descartes/) — editorial review pending.
+- [Philosophical Classics in Hebrew: Building a Language](http://127.0.0.1:4000/leonroth/works/philosophical-classics-hebrew/) — editorial review pending.
+- [Justice and Charity in Israel](http://127.0.0.1:4000/leonroth/works/righteousness-israel/) — Hebrew; review by a proficient reader pending.
+
+The archive now contains forty-six unpublished works (thirty-nine English and seven Hebrew). The [latest ten-work review guide](_docs/batches/2026-09-10-ten-works.md) links each new reading page and source-check record.
+
+See [the content model and safety notes](_docs/digitized-works.md), [the digitization plan](_docs/digitization-plan.md), and [the pilot review record](_docs/pilots/david-nieto-review.md).
+
+Reading pages use continuous text without editorial page markers. Publication page ranges, Roth’s own citations, and source notes are retained.
+
+Works default to `published: false`; this preview config explicitly includes them. Scan checking, editorial acceptance, and permission to publish are separate decisions. Before committing an edition, run:
+
+```sh
+BUNDLE_PATH=vendor/bundle bundle exec ruby tools/check_works.rb
+BUNDLE_PATH=vendor/bundle bundle exec ruby tools/test_works_publication.rb
+```
+
+The archive PR workflow runs these checks plus normal and preview builds, with no deployment permissions.
+
+Do not manually dispatch `pages.yml` for a preview: its deployment job also runs on `workflow_dispatch`. Keep the production workflow and its configuration unchanged.
+
 ## Edit the site
 
 - Each interior page is an ordinary Markdown file in the project root. Edit its text and links beneath the opening `---` configuration block.

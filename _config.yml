@@ -38,3 +38,8 @@ defaults:
       related: false
       comments: false
       classes: wide
+  - scope:
+      path: ""
+      type: works
+    values:
+      published: false

@@ -1,0 +1,17 @@
+{%- assign work = include.work -%}
+{%- assign citation_fields = 'publication,volume,issue,year,pages' | split: ',' -%}
+{%- assign separator = '' -%}
+{%- for field in citation_fields -%}
+  {%- assign value = work[field] | append: '' -%}
+  {%- if value != '' -%}
+    {{- separator -}}
+    {%- case field -%}
+      {%- when 'publication' -%}<cite><bdi>{{ value | escape }}</bdi></cite>
+      {%- when 'volume' -%}Vol. <bdi>{{ value | escape }}</bdi>
+      {%- when 'issue' -%}No. <bdi>{{ value | escape }}</bdi>
+      {%- when 'pages' -%}pp. <bdi>{{ value | escape }}</bdi>
+      {%- else -%}<bdi>{{ value | escape }}</bdi>
+    {%- endcase -%}
+    {%- assign separator = ' · ' -%}
+  {%- endif -%}
+{%- endfor -%}

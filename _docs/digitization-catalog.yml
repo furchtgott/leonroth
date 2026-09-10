@@ -1,0 +1,786 @@
+# Seed work catalog. These records do not create Jekyll pages.
+# Bibliography metadata for candidates still requires scan verification.
+- id: david-nieto
+  title: "David Nieto and the Orthodoxy of Spinozism"
+  year: 1921
+  language: English
+  bibliography: /essays-english/
+  pdf: /_files/ugd/01b672_c3b427c331294b0194fdc13ddab509d8.pdf
+  local_original: "Site Files/David Nieto.pdf"
+  scan_pages: 5
+  printed_pages: "278–282"
+  status: verified
+  priority: 1
+  review_record: _docs/pilots/david-nieto-review.md
+  reviewed_by: "Project owner (review in Codex)"
+  reviewed_on: "2026-09-09"
+  reviewed_revision: "8d7853a73b86224c1e8bea1b3911d6b2cd2bf954"
+  next_action: "Accepted pilot; keep unpublished pending a separate release decision."
+- id: locke-descartes
+  title: "Note on the Relationship between Locke and Descartes"
+  year: 1935
+  language: English
+  bibliography: /essays-english/
+  pdf: /_files/ugd/01b672_c6c2c2f7d0a643d1a51d2a62116ddc7c.pdf
+  local_original: "Site Files/Note on the Relationship between Locke and Descartes 1937.pdf"
+  scan_pages: 3
+  printed_pages: "414–416"
+  status: scan_checked
+  priority: 4
+  extraction_method: "Embedded text corrected against all three page images."
+  review_record: _docs/pilots/locke-descartes-review.md
+  next_action: "Review the complete draft, numbered paragraphs, citations, and partial-word emphasis. The closing date confirms 1935 rather than the filename's 1937."
+- id: yovel-spinoza
+  title: "Yovel Spinoza"
+  year: 1932
+  language: Hebrew
+  bibliography: /essays-hebrew/
+  pdf: /_files/ugd/01b672_e7a86da2376144939028c81161402e0b.pdf
+  local_original: "Site Files/yovel spinoza small.pdf"
+  scan_pages: 2
+  status: deferred_source_review
+  priority: 17
+  next_action: "Dense multi-column newspaper scan with no text layer and ink obscuring words; inspect a clearer copy before selecting it for transcription. Exclude adjacent articles."
+- id: spinoza-recent-english-thought
+  title: "Spinoza in Recent English Thought"
+  year: 1927
+  language: English
+  bibliography: /essays-english/
+  pdf: /_files/ugd/01b672_e13163d3dffb4a108f6b88199f32cff7.pdf
+  local_original: "Site Files/Spinoza in Recent English Thought Mind-1927-ROTH-205-10.pdf"
+  scan_pages: 6
+  printed_pages: "205–210"
+  status: scan_checked
+  priority: 2
+  extraction_method: "Embedded PDF text corrected by visual reading of all pages."
+  review_record: _docs/pilots/spinoza-recent-english-thought-review.md
+  next_action: "Editorial review of the complete draft and seven notes, including continuous HTML numbering and the source-note map."
+- id: freedom-government-introduction
+  title: "הקדמה"
+  translated_title: "Introduction to Freedom and Government"
+  year: 1945
+  language: Hebrew
+  bibliography: /essays-hebrew/
+  pdf: /_files/ugd/01b672_83e04f6517bb436e9804cbbe1d31e503.pdf
+  local_original: "Site Files/herut umishtar.pdf"
+  scan_pages: 3
+  transcription_scan_pages: "2–3"
+  printed_pages: "ה–ו (5–6)"
+  status: scan_checked
+  priority: 3
+  extraction_method: "Manual image reading; no embedded text layer."
+  review_record: _docs/pilots/freedom-government-introduction-review.md
+  next_action: "Proficient Hebrew reader to review the complete introduction, spelling, punctuation, date, and normalization choices."
+- id: philosophical-classics-hebrew
+  title: "Philosophical Classics in Hebrew: Building a Language"
+  year: 1946
+  language: English
+  bibliography: /essays-english/
+  pdf: /_files/ugd/01b672_e9328b5ca35c47b3a0cd3a319fc6a753.pdf
+  local_original: "Site Files/Philosophical Classics in Hebrew.pdf"
+  scan_pages: 3
+  printed_pages: "298–300"
+  status: scan_checked
+  priority: 5
+  extraction_method: "Manual page-image reading; text layer has only database metadata and stamps."
+  review_record: _docs/pilots/philosophical-classics-hebrew-review.md
+  next_action: "Review the text, book titles, names, and column joins. Only the review from Building a Language to full consummation is included."
+- id: righteousness-israel
+  title: "צֶדֶק וּצְדָקָה בְּיִשְׂרָאֵל"
+  translated_title: "Justice and Charity in Israel"
+  year: 1944
+  language: Hebrew
+  bibliography: /essays-hebrew/
+  pdf: /_files/ugd/01b672_69d5a88681e343a893626e3ca98db097.pdf
+  local_original: "Site Files/Righteousness in Israel.pdf"
+  scan_pages: 2
+  printed_pages: "322–323"
+  status: scan_checked
+  priority: 6
+  extraction_method: "Visual transcription; existing Hebrew text layer reverses runs and mixes columns."
+  review_record: _docs/pilots/righteousness-israel-review.md
+  next_action: "Proficient Hebrew reader to review the pointed title, full text, source note, and normalization choices."
+- id: "miscellanies"
+  title: "Miscellanies"
+  year: 1923
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_45c5276f344544e8b5b4020b2a3dc7c1.pdf"
+  local_original: "Site Files/Miscellanies Spinoza.pdf"
+  scan_pages: 2
+  printed_pages: "347–348"
+  status: "scan_checked"
+  priority: 7
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/miscellanies-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "bergmann-kant-review"
+  title: "Review of The Philosophy of Immanuel Kant"
+  year: 1927
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_22652ac9aeda4b229afde3ce42ff1ef4.pdf"
+  local_original: "Site Files/Hugo Bergmann Review.pdf"
+  scan_pages: 1
+  printed_pages: "384"
+  status: "scan_checked"
+  priority: 8
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/bergmann-kant-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "aquinas-opuscula-review"
+  title: "Review of S. Thomae Aquinatis Opuscula Omnia"
+  year: 1928
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_c6d5f28850af4bc58a648960ccb9d6d4.pdf"
+  local_original: "Site Files/Review of Aquinas Mind-1928-ROTH-120-a-120.pdf"
+  scan_pages: 1
+  printed_pages: "120"
+  status: "scan_checked"
+  priority: 9
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/aquinas-opuscula-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "hampshire-spinoza-review"
+  title: "Review of Spinoza by Stuart Hampshire"
+  year: 1956
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_3932d9ef01a246fcadd3fab0dd5c997b.pdf"
+  local_original: "Site Files/Review of Spinoza Mind-1956-ROTH-410-1.pdf"
+  scan_pages: 2
+  printed_pages: "410–411"
+  status: "scan_checked"
+  priority: 10
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/hampshire-spinoza-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "pain-other-problems-review"
+  title: "Review of Pain and Other Problems"
+  year: 1955
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_a802b29212dd41b98f341e12e21134e1.pdf"
+  local_original: "Site Files/review of Wordsworth.pdf"
+  scan_pages: 2
+  printed_pages: "382–383"
+  status: "scan_checked"
+  priority: 11
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/pain-other-problems-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "martin-buber-review"
+  title: "Review of Martin Buber: Jewish Existentialist"
+  year: 1961
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_23e68f268f3a43118a59d3d48f8ac88f.pdf"
+  local_original: "Site Files/Review of Diamond on Buber J Semitic Studies-1961-ROTH-114-a-114.pdf"
+  scan_pages: 1
+  printed_pages: "114"
+  status: "scan_checked"
+  priority: 12
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/martin-buber-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "new-horizons-old-testament-review"
+  title: "Review of New Horizons in Old Testament Literature"
+  year: 1961
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_aee0f77ff2964eb9aeda6c66cd75e1ec.pdf"
+  local_original: "Site Files/Review of Cyrus Gordon.pdf"
+  scan_pages: 2
+  printed_pages: "293–294"
+  status: "scan_checked"
+  priority: 13
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/new-horizons-old-testament-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "exclusiveness-tolerance-review"
+  title: "Review of Exclusiveness and Tolerance"
+  year: 1963
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_77096e1a335546efbcc11d80306d2dea.pdf"
+  local_original: "Site Files/Review of Jacob Katz.pdf"
+  scan_pages: 2
+  printed_pages: "137–138"
+  status: "scan_checked"
+  priority: 14
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/exclusiveness-tolerance-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "political-concepts-introduction"
+  title: "מבוא"
+  year: 1950
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_7a361355f04a4f3ea14be8d3740952a9.pdf"
+  local_original: "Site Files/ben sasson.pdf"
+  scan_pages: 5
+  printed_pages: "5–6"
+  status: "scan_checked"
+  priority: 15
+  extraction_method: "Visual transcription from page images; Hebrew text layer unusable."
+  review_record: "_docs/pilots/political-concepts-introduction-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "Introduction to Dictionary of Political Concepts"
+- id: "man-destiny-religions-review"
+  title: "Review of Man and His Destiny in the Great Religions"
+  year: 1963
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_65ad88669cb64f4ca797b5a1615bc5a0.pdf"
+  local_original: "Site Files/Review of Brandon.pdf"
+  scan_pages: 7
+  printed_pages: "271–277"
+  status: "scan_checked"
+  priority: 16
+  extraction_method: "Embedded text corrected by visual comparison of the complete work."
+  review_record: "_docs/pilots/man-destiny-religions-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "universality-education"
+  title: "A Plea for Universality in Education"
+  year: 1948
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_d259e0ad83e148989dab42e118994a21.pdf"
+  local_original: "Site Files/universality in education.pdf"
+  scan_pages: 2
+  status: "deferred_source_review"
+  priority: 18
+  next_action: "Text disappears into the binding in the right-hand column of printed page 10; secure a flatter or clearer scan before transcribing."
+- id: "magnes-appreciation"
+  title: "Judah Leon Magnes: An Appreciation"
+  year: 1951
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_b3fcfc4550b2419498510d79699192d6.pdf"
+  local_original: "Site Files/Magnes0000.pdf"
+  scan_pages: 3
+  status: "deferred_source_review"
+  priority: 19
+  next_action: "Blot and crease obscure words across printed page 20; seek a clearer copy before transcribing. The continuation runs on printed page 19 in this reverse-paginated issue."
+- id: "rembrandt-spinoza-review"
+  title: "Rembrandt and Spinoza"
+  year: 1957
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_0a81ca4aec1f45bd91ebc7b8ad76611f.pdf"
+  local_original: "Site Files/Jewish Chronicle/valentiner review june 21 1957.pdf"
+  scan_pages: 1
+  printed_pages: "23"
+  status: "scan_checked"
+  priority: 20
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/rembrandt-spinoza-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "jewish-values-review"
+  title: "Bridging a Gap"
+  year: 1960
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_12a8ccc96902499a9bc1de701e8bf5e7.pdf"
+  local_original: "Site Files/Jewish Chronicle/louis jacobs review june 3 1960.pdf"
+  scan_pages: 1
+  printed_pages: "20"
+  status: "scan_checked"
+  priority: 21
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/jewish-values-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "religion-israel-review"
+  title: "The Jewish Faith"
+  year: 1961
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_1a918551650e430abf98e51eccac4614.pdf"
+  local_original: "Site Files/Jewish Chronicle/religion of israel review june 4 1961.pdf"
+  scan_pages: 1
+  printed_pages: "24"
+  status: "scan_checked"
+  priority: 22
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/religion-israel-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "boloney"
+  title: "Boloney"
+  year: 1951
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_334fae466f9040c3a08b840eff4e9298.pdf"
+  local_original: "Site Files/Boloney.pdf"
+  scan_pages: 4
+  printed_pages: "1–4"
+  status: "scan_checked"
+  priority: 23
+  extraction_method: "Local Apple Vision OCR (accurate English recognition, language correction disabled) supplied a proposal. Codex read every relevant page image and corrected wording, reading order, paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/boloney-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "magnes-hebrew-university"
+  title: "Judah L. Magnes and the Hebrew University"
+  year: 1949
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_346e2202480a4822900ccaf19409c088.pdf"
+  local_original: "Site Files/roth magnes.pdf"
+  scan_pages: 4
+  printed_pages: "4–7"
+  status: "scan_checked"
+  priority: 24
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/magnes-hebrew-university-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "st-george-england"
+  title: "St George for England"
+  year: 1954
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_3e08b0ec71cf4bc9b12c290747874381.pdf"
+  local_original: "Site Files/St. George Desiderata.pdf"
+  scan_pages: 3
+  printed_pages: "1–3"
+  status: "scan_checked"
+  priority: 25
+  extraction_method: "Local Apple Vision OCR (accurate English recognition, language correction disabled) supplied a proposal. Codex read every relevant page image and corrected wording, reading order, paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/st-george-england-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "ambassadors-english"
+  title: "Ambassadors of English"
+  year: 1942
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_65d25ef810274c56bf44c8df0eb4c1ee.pdf"
+  local_original: "Site Files/1942_Roth_Ambassadors of English_The Times Literary Supplement , Saturday, July 11, 1942_ pg. 343.Pdf"
+  scan_pages: 2
+  printed_pages: "343"
+  status: "scan_checked"
+  priority: 26
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/ambassadors-english-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "qibya-letter"
+  title: "Right Is Might"
+  year: 1953
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_85ac4762ae304a538279401889e52b07.pdf"
+  local_original: "Site Files/Jewish Chronicle/leonroth53.pdf"
+  scan_pages: 1
+  printed_pages: "21"
+  status: "scan_checked"
+  priority: 27
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/qibya-letter-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "cherem-spinoza"
+  title: "The ‘Cherem’ on Spinoza"
+  year: 1956
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_86936c1bc32f4bafa82b54b9ba33c9ca.pdf"
+  local_original: "Site Files/Jewish Chronicle/cherem on spinoza july 21 1956.pdf"
+  scan_pages: 1
+  printed_pages: "15"
+  status: "scan_checked"
+  priority: 28
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/cherem-spinoza-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "message-bible-review"
+  title: "Message of the Bible"
+  year: 1959
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_9226fcb0cb554b93a8ec083a8b1360d4.pdf"
+  local_original: "Site Files/Jewish Chronicle/message of the bible sep 11 1959.pdf"
+  scan_pages: 1
+  printed_pages: "29"
+  status: "scan_checked"
+  priority: 29
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/message-bible-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "henri-bergson-memoriam"
+  title: "לְזִכְרוֹ שֶׁל הֶנְרִי בֶּרְגְסוֹן"
+  year: 1941
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_a400ec4aabe4456e86f55f2b6cddd3d6.pdf"
+  local_original: "Site Files/Henri Bergson Moznayim.pdf"
+  scan_pages: 3
+  printed_pages: "206–208"
+  status: "scan_checked"
+  priority: 30
+  extraction_method: "Codex transcribed the three article pages by reading their images; the Hebrew text layer was not usable. Enlarged crops were used for difficult letterforms and the pointed title."
+  review_record: "_docs/pilots/henri-bergson-memoriam-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "Henri Bergson, In Memoriam"
+- id: "ahad-haam-letter-april-30"
+  title: "Achad Ha’am’s Moral Outlook (April 30 letter)"
+  year: 1954
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_a52ef6b1089a47f2800032d970e5fb9a.pdf"
+  local_original: "Site Files/Jewish Chronicle/leonroth.4.30.54.pdf"
+  scan_pages: 1
+  printed_pages: "15"
+  status: "scan_checked"
+  priority: 31
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/ahad-haam-letter-april-30-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "tradition-change-review"
+  title: "Tradition and Change"
+  year: 1959
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_a7e3ccd395b34db3ac29339318dd1ec0.pdf"
+  local_original: "Site Files/Jewish Chronicle/tradition and change 15 may 1959.pdf"
+  scan_pages: 1
+  printed_pages: "19"
+  status: "scan_checked"
+  priority: 32
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/tradition-change-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "magnes-letter"
+  title: "Biography of Judah Magnes"
+  year: 1955
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_ab587ca0bb4f4d1db29116fcb8f8bb7a.pdf"
+  local_original: "Site Files/Jewish Chronicle/leonroth.2.4.55.pdf"
+  scan_pages: 1
+  printed_pages: "14"
+  status: "scan_checked"
+  priority: 33
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/magnes-letter-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "ahad-haam-letter-april-16"
+  title: "Achad Ha’am’s Moral Outlook (April 16 letter)"
+  year: 1954
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_b64d45b992d7478baf6b5018ff4723ed.pdf"
+  local_original: "Site Files/Jewish Chronicle/leonroth.4.16.54.pdf"
+  scan_pages: 1
+  printed_pages: "23"
+  status: "scan_checked"
+  priority: 34
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/ahad-haam-letter-april-16-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "authority-religion-law"
+  title: "Authority, Religion and Law"
+  year: 1960
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_285979f1981c4584ab61eda2d19718ba.pdf"
+  local_original: "Site Files/Authority Religion Law.pdf"
+  scan_pages: 6
+  printed_pages: "115–120"
+  status: "scan_checked"
+  priority: 35
+  extraction_method: "Local Apple Vision OCR (accurate English recognition, language correction disabled) supplied a proposal. Codex read every relevant page image and corrected wording, reading order, paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/authority-religion-law-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "jerusalem-university"
+  title: "The Jerusalem University: Some Personal Notes"
+  year: 1930
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_74dedb59d3564d6ea6b474a3b73dd0d5.pdf"
+  local_original: "Site Files/The Jerusalem University.pdf"
+  scan_pages: 5
+  printed_pages: "111–115"
+  status: "scan_checked"
+  priority: 36
+  extraction_method: "Local Apple Vision OCR (accurate English recognition, language correction disabled) supplied a proposal. Codex read every relevant page image and corrected wording, reading order, paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/jerusalem-university-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "general-humanities"
+  title: "The General Humanities"
+  year: 1950
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_8be27b04c9c042ab8225da327da91956.pdf"
+  local_original: "Site Files/General Humanities in Spiegel.pdf"
+  scan_pages: 5
+  printed_pages: "98–102"
+  status: "scan_checked"
+  priority: 37
+  extraction_method: "Local Apple Vision OCR (accurate English recognition, language correction disabled) supplied a proposal. Codex read every relevant page image and corrected wording, reading order, paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/general-humanities-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "abrahams-hebrew-university"
+  title: "I.A. and the Hebrew University"
+  year: 1949
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_eef97dc9e22147c39f6525b1a99d7ab4.pdf"
+  local_original: "Site Files/Zionist independent.pdf"
+  scan_pages: 5
+  printed_pages: "20–22"
+  status: "scan_checked"
+  priority: 38
+  extraction_method: "Local Apple Vision OCR (accurate English recognition, language correction disabled) supplied a proposal. Codex read every relevant page image and corrected wording, reading order, paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/abrahams-hebrew-university-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "resurgence-hebrew"
+  title: "The Resurgence of Hebrew"
+  year: 1959
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_366e70deb2034223b8c7facc9b5e93de.pdf"
+  local_original: "Site Files/Resurgence of Hebrew.pdf"
+  scan_pages: 10
+  printed_pages: "177–186"
+  status: "scan_checked"
+  priority: 39
+  extraction_method: "Poppler embedded-text extraction was consulted as a proposal. Codex read every relevant page image and transcribed/corrected the complete work, article boundaries, column and paragraph joins, punctuation, and emphasis against the scan."
+  review_record: "_docs/pilots/resurgence-hebrew-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "in-his-image-review"
+  title: "Review of In His Image"
+  year: 1961
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_4d73043d3e524023b458cbdfc8ff46f6.pdf"
+  local_original: "Site Files/Jewish Chronicle/belkin review march 17 1961.pdf"
+  scan_pages: 1
+  status: "deferred_source_review"
+  priority: 40
+  next_action: "Heavy fading obscures letters throughout the review. Obtain a clearer copy of the March 17, 1961 issue before transcription."
+- id: "sacred-books-world-review"
+  title: "Review of Sacred Books of the World"
+  year: 1962
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_9dc21d5fddc54319a39cda240ef0e977.pdf"
+  local_original: "Site Files/Jewish Chronicle/review of bouquet dec 7 1962.pdf"
+  scan_pages: 1
+  status: "deferred_source_review"
+  priority: 41
+  next_action: "Ink blots obscure text in the December 7, 1962 review. Obtain a clearer scan."
+- id: "italian-jewry-review"
+  title: "Review of Aspects of Italian Jewry"
+  year: 1958
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_eaad2c32eb0345f39d8bbdb265d42438.pdf"
+  local_original: "Site Files/Jewish Chronicle/leonroth aspects of italian jewry sep 5 1958.pdf"
+  scan_pages: 1
+  status: "deferred_source_review"
+  priority: 42
+  next_action: "Blots cover words in the September 5, 1958 review. Obtain a clearer scan."
+- id: "twenty-five-years"
+  title: "Twenty Five Years [of the Hebrew University]"
+  year: 1950
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_011e3d53277d413588b8084bbb31b967.pdf"
+  local_original: "Site Files/twenty five years.pdf"
+  scan_pages: 3
+  status: "deferred_source_review"
+  priority: 43
+  next_action: "The binding hides words and line beginnings in this Scopus article. Obtain a flatter scan."
+- id: "ambassador"
+  title: "Ambassador"
+  year: 1951
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_3a112e085e2b47cd94f97dd203c2477a.pdf"
+  local_original: "Site Files/Ambassador.pdf"
+  scan_pages: 3
+  status: "deferred_source_review"
+  priority: 44
+  next_action: "Binding obscures line beginnings in the December 7, 1951 Desiderata article. Obtain a flatter scan before transcription."
+- id: "biblical-prophecy"
+  title: "The Significance of Biblical Prophecy for Our Time"
+  year: 1955
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_3404d6a14ac54ba6bacf961e4122fd1c.pdf"
+  local_original: "Site Files/biblical prophecy .pdf"
+  scan_pages: 5
+  printed_pages: "5–11"
+  status: "scan_checked"
+  priority: 45
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/biblical-prophecy-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "great-jewish-books"
+  title: "Great Jewish Books: Old and New"
+  year: 1972
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_5015a351fdf24336a71f137ec1438693.pdf"
+  local_original: "Site Files/Leon Roth - Great Jewish Books - Old and New.PDF"
+  scan_pages: 9
+  printed_pages: "25–38"
+  status: "scan_checked"
+  priority: 46
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/great-jewish-books-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "west-london-address"
+  title: "Address Given at the West London Synagogue on the Occasion of the Inauguration of the Jewish Theological College"
+  year: 2006
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_9399d2e8387348cbbb3e4dddabb31831.pdf"
+  local_original: "Site Files/Adress given at the West London Synagogue 1956.pdf"
+  scan_pages: 11
+  printed_pages: "16–26"
+  status: "scan_checked"
+  priority: 47
+  extraction_method: "The born-digital text was extracted with pdftohtml XML to preserve printed italic runs, then checked against all eleven rendered pages. Page headers and the two source editorial notes were separated from the address."
+  review_record: "_docs/pilots/west-london-address-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "place-religion"
+  title: "מקום הדת בבנין הארץ"
+  year: 1942
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_db3623b429484e11be1c8c80d44e6fdc.pdf"
+  local_original: "Site Files/gilyonot0000.pdf"
+  scan_pages: 3
+  printed_pages: "74–79"
+  status: "scan_checked"
+  priority: 48
+  extraction_method: "The embedded text was absent or unusable. Codex transcribed the Hebrew directly from all article-page images, checking enlarged columns and crops. No external OCR service was used."
+  review_record: "_docs/pilots/place-religion-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "The Place of Religion in the Upbuilding of the Land of Israel"
+- id: "jerusalem-letter"
+  title: "Jerusalem Letter"
+  year: 1932
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_e371d4814047467c9edce40eda93cd6c.pdf"
+  local_original: "Site Files/Jerusalem Letter.pdf"
+  scan_pages: 6
+  printed_pages: "126–131"
+  status: "scan_checked"
+  priority: 49
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/jerusalem-letter-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "diffusion-culture"
+  title: "על הפצת התרבות"
+  year: 1943
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_f79bc44e7bf744ce81b28d2a7a7e6582.pdf"
+  local_original: "Site Files/hafatzat hatarbut hagalgal.pdf"
+  scan_pages: 3
+  printed_pages: "3–4"
+  status: "scan_checked"
+  priority: 50
+  extraction_method: "The embedded text was absent or unusable. Codex transcribed the Hebrew directly from all article-page images, checking enlarged columns and crops. No external OCR service was used."
+  review_record: "_docs/pilots/diffusion-culture-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "The Diffusion of Culture"
+- id: "philosophy-university"
+  title: "Philosophy at the University and the Jewish Mind"
+  year: 1952
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_fee98a86a28b4b74a53a2c6f9ba373cd.pdf"
+  local_original: "Site Files/Philosophy at the University and the Jewish Mind.pdf"
+  scan_pages: 8
+  printed_pages: "65–72"
+  status: "scan_checked"
+  priority: 51
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/philosophy-university-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "discourse-method"
+  title: "The Discourse on Method (1637–1937)"
+  year: 1937
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_c4afdc5840da4ec484d32fa2a7323d17.pdf"
+  local_original: "Site Files/Discourse on Method Mind-1937-ROTH-32-43.pdf"
+  scan_pages: 12
+  printed_pages: "32–43"
+  status: "scan_checked"
+  priority: 52
+  extraction_method: "Existing PDF text was corrected against all twelve source-page images. Footnotes were separately read and keyed, with enlarged checks of French accents, Latin, dates, volume numbers and line references."
+  review_record: "_docs/pilots/discourse-method-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "education-religion"
+  title: "הַחִנּוּךְ וְהַדָּת"
+  year: 1944
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_64919309455648d18dda0b91e12ca447.pdf"
+  local_original: "Site Files/hinukh v'hadat.pdf"
+  scan_pages: 5
+  printed_pages: "344–348"
+  status: "scan_checked"
+  priority: 53
+  extraction_method: "The embedded text was absent or unusable. Codex transcribed the Hebrew directly from all article-page images, checking enlarged columns and crops. No external OCR service was used."
+  review_record: "_docs/pilots/education-religion-review.md"
+  next_action: "Review the complete draft, source scope, citations, and presentation; Hebrew requires a proficient reader."
+  translated_title: "Education and Religion"
+- id: "albert-camus"
+  title: "A Contemporary Moralist: Albert Camus"
+  year: 1955
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_83d48934a0414621a0495d36a4bb8142.pdf"
+  local_original: "Site Files/Camus_Philosophy30_1955.pdf"
+  scan_pages: 13
+  printed_pages: "291–303"
+  status: "scan_checked"
+  priority: 54
+  extraction_method: "Local Apple Vision OCR (accurate recognition, en-US, language correction disabled) supplied a draft; Codex corrected it against every source-page image, using enlarged crops for doubtful readings."
+  review_record: "_docs/pilots/albert-camus-review.md"
+  next_action: "Review the complete draft, source scope, quotations, and presentation."
+- id: "cartesian-studies"
+  title: "Cartesian Studies"
+  year: 1954
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_790e6760fd9244829442500199ba3e29.pdf"
+  local_original: "Site Files/Cartesian Studies.pdf"
+  scan_pages: 10
+  printed_pages: "466–475"
+  status: "deferred_source_review"
+  priority: 55
+  extraction_method: "Source images inspected; no edition created."
+  open_issues: "The inner binding clips text on the opening printed page 466. Obtain a flatter, clearer scan before transcription."
+  next_action: "The inner binding clips text on the opening printed page 466. Obtain a flatter, clearer scan before transcription."
+- id: "national-discipline"
+  title: "משמעת לאומית וחופש הפרט"
+  year: 1944
+  language: "Hebrew"
+  bibliography: "/essays-hebrew/"
+  pdf: "/_files/ugd/01b672_8bd014211afe48a296b16f2a8ea90fb2.pdf"
+  local_original: "Site Files/Mishmaat Leumit.pdf"
+  scan_pages: 2
+  printed_pages: "84–87"
+  status: "deferred_source_review"
+  priority: 56
+  extraction_method: "Source images inspected; no edition created."
+  open_issues: "Binding loss obscures line ends on printed pages 85 and 87. Obtain a complete legible scan before transcription."
+  next_action: "Binding loss obscures line ends on printed pages 85 and 87. Obtain a complete legible scan before transcription."
+- id: "descartes-huygens"
+  title: "The Descartes-Huygens Correspondence"
+  year: 1937
+  language: "English"
+  bibliography: "/essays-english/"
+  pdf: "/_files/ugd/01b672_123d93d61a884d989b24fe3efb71c161.pdf"
+  local_original: "Site Files/Descartes Huygens.pdf"
+  scan_pages: 8
+  printed_pages: "101–108"
+  status: "deferred_source_review"
+  priority: 57
+  extraction_method: "Source images inspected; no edition created."
+  open_issues: "The eight-page PDF includes a cover and printed pages 101–104, 106–108; printed page 105 is absent. Obtain the missing page before transcription."
+  next_action: "The eight-page PDF includes a cover and printed pages 101–104, 106–108; printed page 105 is absent. Obtain the missing page before transcription."

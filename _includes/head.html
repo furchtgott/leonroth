@@ -2,4 +2,6 @@
 {% include seo.html %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<meta name="theme-color" content="#37594b">
+<meta name="theme-color" content="#37594b">{% if page.layout == 'work' or page.layout == 'works-index' %}
+<link rel="stylesheet" href="{{ '/assets/css/works.css' | relative_url }}">
+<meta name="robots" content="noindex, nofollow">{% endif %}

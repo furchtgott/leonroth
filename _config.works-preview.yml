@@ -1,0 +1,11 @@
+# Opt-in LOCAL preview. The production workflow uses _config.yml only.
+# Lists replace the base config's lists, so retain _files for original PDFs.
+works_preview: true
+unpublished: true
+include:
+  - _files
+  - _preview
+collections:
+  works:
+    output: true
+    permalink: /works/:name/
